@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       6.16487
+_cell_length_b       10.8263
+_cell_length_c       10.826
+_cell_angle_alpha    59.9998
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  La1      1.0000 0.94827  0.35866  0.86801  Biso   1.000  La
+  La2      1.0000 0.94827  0.86800  0.77333  Biso   1.000  La
+  La3      1.0000 0.94827  0.77333  0.35867  Biso   1.000  La
+  La4      1.0000 0.44827  0.64134  0.13199  Biso   1.000  La
+  La5      1.0000 0.44827  0.13200  0.22667  Biso   1.000  La
+  La6      1.0000 0.44827  0.22667  0.64133  Biso   1.000  La
+  Se1      1.0000 0.97097  0.09781  0.17136  Biso   1.000  Se
+  Se2      1.0000 0.97097  0.17135  0.73084  Biso   1.000  Se
+  Se3      1.0000 0.97097  0.73084  0.09781  Biso   1.000  Se
+  Se4      1.0000 0.47097  0.90219  0.82864  Biso   1.000  Se
+  Se5      1.0000 0.47097  0.82865  0.26916  Biso   1.000  Se
+  Se6      1.0000 0.47097  0.26916  0.90219  Biso   1.000  Se
+  Se7      1.0000 0.20739  0.52527  0.58294  Biso   1.000  Se
+  Se8      1.0000 0.20738  0.58294  0.89179  Biso   1.000  Se
+  Se9      1.0000 0.20739  0.89178  0.52528  Biso   1.000  Se
+  Se10     1.0000 0.70739  0.47473  0.41705  Biso   1.000  Se
+  Se11     1.0000 0.70738  0.41706  0.10821  Biso   1.000  Se
+  Se12     1.0000 0.70739  0.10822  0.47472  Biso   1.000  Se
+  Se13     1.0000 0.72367  0.66666  0.66667  Biso   1.000  Se
+  Se14     1.0000 0.22367  0.33334  0.33333  Biso   1.000  Se
+  Ag1      1.0000 0.00361  0.00000  1.00000  Biso   1.000  Ag
+  Ag2      1.0000 0.50361  1.00000  0.00000  Biso   1.000  Ag
+  Si1      1.0000 0.35353  0.66666  0.66668  Biso   1.000  Si
+  Si2      1.0000 0.85353  0.33334  0.33332  Biso   1.000  Si

@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       11.3042
+_cell_length_b       11.3042
+_cell_length_c       14.2465
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    37.5143
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ba1      1.0000 0.31381  0.68619  0.14731  Biso   1.000  Ba
+  Ba2      1.0000 0.68619  0.31381  0.85269  Biso   1.000  Ba
+  Ba3      1.0000 0.18619  0.81381  0.64731  Biso   1.000  Ba
+  Ba4      1.0000 0.81381  0.18619  0.35269  Biso   1.000  Ba
+  Ba5      1.0000 0.97929  0.36966  0.62859  Biso   1.000  Ba
+  Ba6      1.0000 0.36966  0.97929  0.37141  Biso   1.000  Ba
+  Ba7      1.0000 0.86966  0.47929  0.12859  Biso   1.000  Ba
+  Ba8      1.0000 0.47929  0.86966  0.87141  Biso   1.000  Ba
+  Ba9      1.0000 0.02071  0.63034  0.37141  Biso   1.000  Ba
+  Ba10     1.0000 0.63034  0.02071  0.62859  Biso   1.000  Ba
+  Ba11     1.0000 0.13034  0.52071  0.87141  Biso   1.000  Ba
+  Ba12     1.0000 0.52071  0.13034  0.12859  Biso   1.000  Ba
+  Sb1      1.0000 0.79551  0.20449  0.10149  Biso   1.000  Sb
+  Sb2      1.0000 0.20449  0.79551  0.89851  Biso   1.000  Sb
+  Sb3      1.0000 0.70449  0.29551  0.60149  Biso   1.000  Sb
+  Sb4      1.0000 0.29551  0.70449  0.39851  Biso   1.000  Sb
+  Sb5      1.0000 0.45887  0.85925  0.62002  Biso   1.000  Sb
+  Sb6      1.0000 0.85925  0.45887  0.37998  Biso   1.000  Sb
+  Sb7      1.0000 0.35925  0.95887  0.12002  Biso   1.000  Sb
+  Sb8      1.0000 0.95887  0.35925  0.87998  Biso   1.000  Sb
+  Sb9      1.0000 0.54113  0.14075  0.37998  Biso   1.000  Sb
+  Sb10     1.0000 0.14075  0.54113  0.62002  Biso   1.000  Sb
+  Sb11     1.0000 0.64075  0.04113  0.87998  Biso   1.000  Sb
+  Sb12     1.0000 0.04113  0.64075  0.12002  Biso   1.000  Sb
+  Al1      1.0000 0.58527  0.58527  0.50000  Biso   1.000  Al
+  Al2      1.0000 0.08527  0.08527  0.00000  Biso   1.000  Al
+  Al3      1.0000 0.41473  0.41473  0.50000  Biso   1.000  Al
+  Al4      1.0000 0.91473  0.91473  0.00000  Biso   1.000  Al

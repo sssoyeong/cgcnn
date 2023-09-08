@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       4.12271
+_cell_length_b       11.7315
+_cell_length_c       21.0959
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Al1      1.0000 0.25000  0.67998  0.87044  Biso   1.000  Al
+  Al2      1.0000 0.25000  0.17998  0.62956  Biso   1.000  Al
+  Al3      1.0000 0.75000  0.32002  0.12956  Biso   1.000  Al
+  Al4      1.0000 0.75000  0.82002  0.37044  Biso   1.000  Al
+  Al5      1.0000 0.75000  0.83801  0.00519  Biso   1.000  Al
+  Al6      1.0000 0.75000  0.33801  0.49481  Biso   1.000  Al
+  Al7      1.0000 0.25000  0.16199  0.99481  Biso   1.000  Al
+  Al8      1.0000 0.25000  0.66199  0.50519  Biso   1.000  Al
+  Al9      1.0000 0.75000  0.95797  0.90412  Biso   1.000  Al
+  Al10     1.0000 0.75000  0.45797  0.59588  Biso   1.000  Al
+  Al11     1.0000 0.25000  0.04203  0.09588  Biso   1.000  Al
+  Al12     1.0000 0.25000  0.54203  0.40412  Biso   1.000  Al
+  Te1      1.0000 0.75000  0.78996  0.81642  Biso   1.000  Te
+  Te2      1.0000 0.75000  0.28996  0.68358  Biso   1.000  Te
+  Te3      1.0000 0.25000  0.21004  0.18358  Biso   1.000  Te
+  Te4      1.0000 0.25000  0.71004  0.31642  Biso   1.000  Te
+  Te5      1.0000 0.25000  0.09558  0.87299  Biso   1.000  Te
+  Te6      1.0000 0.25000  0.59558  0.62700  Biso   1.000  Te
+  Te7      1.0000 0.75000  0.90442  0.12700  Biso   1.000  Te
+  Te8      1.0000 0.75000  0.40442  0.37300  Biso   1.000  Te
+  Te9      1.0000 0.25000  0.68783  0.99692  Biso   1.000  Te
+  Te10     1.0000 0.25000  0.18783  0.50308  Biso   1.000  Te
+  Te11     1.0000 0.75000  0.31217  0.00308  Biso   1.000  Te
+  Te12     1.0000 0.75000  0.81217  0.49692  Biso   1.000  Te
+  I1       1.0000 0.25000  0.47445  0.83414  Biso   1.000  I 
+  I2       1.0000 0.25000  0.97445  0.66586  Biso   1.000  I 
+  I3       1.0000 0.75000  0.52555  0.16586  Biso   1.000  I 
+  I4       1.0000 0.75000  0.02555  0.33414  Biso   1.000  I 

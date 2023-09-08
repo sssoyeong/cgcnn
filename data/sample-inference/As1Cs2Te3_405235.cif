@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       8.9866
+_cell_length_b       10.9308
+_cell_length_c       11.9972
+_cell_angle_alpha    64.3137
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Cs1      1.0000 0.39858  0.74696  0.32077  Biso   1.000  Cs
+  Cs2      1.0000 0.89858  0.25304  0.17923  Biso   1.000  Cs
+  Cs3      1.0000 0.60142  0.25304  0.67923  Biso   1.000  Cs
+  Cs4      1.0000 0.10142  0.74696  0.82077  Biso   1.000  Cs
+  Cs5      1.0000 0.91818  0.70064  0.47241  Biso   1.000  Cs
+  Cs6      1.0000 0.41818  0.29936  0.02759  Biso   1.000  Cs
+  Cs7      1.0000 0.08182  0.29936  0.52759  Biso   1.000  Cs
+  Cs8      1.0000 0.58182  0.70064  0.97241  Biso   1.000  Cs
+  As1      1.0000 0.44201  0.95284  0.59747  Biso   1.000  As
+  As2      1.0000 0.94201  0.04716  0.90253  Biso   1.000  As
+  As3      1.0000 0.55799  0.04716  0.40253  Biso   1.000  As
+  As4      1.0000 0.05799  0.95284  0.09747  Biso   1.000  As
+  Te1      1.0000 0.54483  0.70024  0.63507  Biso   1.000  Te
+  Te2      1.0000 0.04483  0.29976  0.86493  Biso   1.000  Te
+  Te3      1.0000 0.45517  0.29976  0.36493  Biso   1.000  Te
+  Te4      1.0000 0.95517  0.70024  0.13507  Biso   1.000  Te
+  Te5      1.0000 0.29708  0.52612  0.67478  Biso   1.000  Te
+  Te6      1.0000 0.79708  0.47388  0.82522  Biso   1.000  Te
+  Te7      1.0000 0.70292  0.47388  0.32522  Biso   1.000  Te
+  Te8      1.0000 0.20292  0.52612  0.17478  Biso   1.000  Te
+  Te9      1.0000 0.17086  0.99372  0.48206  Biso   1.000  Te
+  Te10     1.0000 0.67086  0.00628  0.01794  Biso   1.000  Te
+  Te11     1.0000 0.82914  0.00628  0.51794  Biso   1.000  Te
+  Te12     1.0000 0.32914  0.99372  0.98206  Biso   1.000  Te

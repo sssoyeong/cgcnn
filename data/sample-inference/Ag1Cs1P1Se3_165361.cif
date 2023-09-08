@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       12.4959
+_cell_length_b       6.85005
+_cell_length_c       10.3947
+_cell_angle_alpha    55.654
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Cs1      1.0000 0.16633  0.26366  0.48280  Biso   1.000  Cs
+  Cs2      1.0000 0.33367  0.26366  0.98280  Biso   1.000  Cs
+  Cs3      1.0000 0.83367  0.73634  0.51720  Biso   1.000  Cs
+  Cs4      1.0000 0.66633  0.73635  0.01720  Biso   1.000  Cs
+  Ag1      1.0000 0.06081  0.68397  0.85877  Biso   1.000  Ag
+  Ag2      1.0000 0.43919  0.68397  0.35877  Biso   1.000  Ag
+  Ag3      1.0000 0.93919  0.31603  0.14123  Biso   1.000  Ag
+  Ag4      1.0000 0.56081  0.31603  0.64123  Biso   1.000  Ag
+  Se1      1.0000 0.31907  0.73438  0.54517  Biso   1.000  Se
+  Se2      1.0000 0.18093  0.73438  0.04517  Biso   1.000  Se
+  Se3      1.0000 0.68093  0.26562  0.45483  Biso   1.000  Se
+  Se4      1.0000 0.81907  0.26562  0.95483  Biso   1.000  Se
+  Se5      1.0000 0.40857  0.99552  0.74679  Biso   1.000  Se
+  Se6      1.0000 0.09143  0.99552  0.24679  Biso   1.000  Se
+  Se7      1.0000 0.59143  0.00448  0.25321  Biso   1.000  Se
+  Se8      1.0000 0.90857  0.00448  0.75321  Biso   1.000  Se
+  Se9      1.0000 0.58670  0.57404  0.74805  Biso   1.000  Se
+  Se10     1.0000 0.91330  0.57404  0.24805  Biso   1.000  Se
+  Se11     1.0000 0.41330  0.42596  0.25195  Biso   1.000  Se
+  Se12     1.0000 0.08670  0.42596  0.75195  Biso   1.000  Se
+  P1       1.0000 0.46023  0.84739  0.61553  Biso   1.000  P 
+  P2       1.0000 0.03977  0.84739  0.11553  Biso   1.000  P 
+  P3       1.0000 0.53977  0.15261  0.38447  Biso   1.000  P 
+  P4       1.0000 0.96023  0.15261  0.88447  Biso   1.000  P 

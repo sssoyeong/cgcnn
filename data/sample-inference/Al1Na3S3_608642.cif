@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       6.8604
+_cell_length_b       7.12581
+_cell_length_c       14.5454
+_cell_angle_alpha    60.3859
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Al1      1.0000 0.36163  0.50301  0.58029  Biso   1.000  Al
+  Al2      1.0000 0.13837  0.50301  0.08029  Biso   1.000  Al
+  Al3      1.0000 0.63837  0.49699  0.41971  Biso   1.000  Al
+  Al4      1.0000 0.86163  0.49699  0.91971  Biso   1.000  Al
+  S1       1.0000 0.19826  0.49052  0.92976  Biso   1.000  S 
+  S2       1.0000 0.30174  0.49052  0.42976  Biso   1.000  S 
+  S3       1.0000 0.80174  0.50948  0.07024  Biso   1.000  S 
+  S4       1.0000 0.69826  0.50948  0.57024  Biso   1.000  S 
+  S5       1.0000 0.76468  0.79434  0.77477  Biso   1.000  S 
+  S6       1.0000 0.73532  0.79434  0.27477  Biso   1.000  S 
+  S7       1.0000 0.23532  0.20566  0.22523  Biso   1.000  S 
+  S8       1.0000 0.26468  0.20566  0.72523  Biso   1.000  S 
+  S9       1.0000 0.24690  0.80287  0.57194  Biso   1.000  S 
+  S10      1.0000 0.25310  0.80287  0.07194  Biso   1.000  S 
+  S11      1.0000 0.75310  0.19713  0.42806  Biso   1.000  S 
+  S12      1.0000 0.74690  0.19713  0.92806  Biso   1.000  S 
+  Na1      1.0000 0.96873  0.51680  0.70864  Biso   1.000  Na
+  Na2      1.0000 0.53127  0.51680  0.20864  Biso   1.000  Na
+  Na3      1.0000 0.03127  0.48320  0.29136  Biso   1.000  Na
+  Na4      1.0000 0.46873  0.48320  0.79136  Biso   1.000  Na
+  Na5      1.0000 0.00974  0.95928  0.88613  Biso   1.000  Na
+  Na6      1.0000 0.49026  0.95928  0.38613  Biso   1.000  Na
+  Na7      1.0000 0.99026  0.04072  0.11387  Biso   1.000  Na
+  Na8      1.0000 0.50974  0.04072  0.61387  Biso   1.000  Na
+  Na9      1.0000 0.01052  0.10564  0.59980  Biso   1.000  Na
+  Na10     1.0000 0.48948  0.10564  0.09980  Biso   1.000  Na
+  Na11     1.0000 0.98948  0.89436  0.40020  Biso   1.000  Na
+  Na12     1.0000 0.51052  0.89436  0.90020  Biso   1.000  Na

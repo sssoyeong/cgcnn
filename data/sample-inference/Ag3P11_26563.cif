@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       7.59747
+_cell_length_b       13.0341
+_cell_length_c       6.61431
+_cell_angle_alpha    61.2056
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.00000  0.99824  0.99831  Biso   1.000  Ag
+  Ag2      1.0000 0.50000  0.49824  0.99831  Biso   1.000  Ag
+  Ag3      1.0000 0.00000  0.58969  0.19712  Biso   1.000  Ag
+  Ag4      1.0000 0.50000  0.08969  0.19712  Biso   1.000  Ag
+  Ag5      1.0000 0.00000  0.29206  0.97427  Biso   1.000  Ag
+  Ag6      1.0000 0.50000  0.79206  0.97427  Biso   1.000  Ag
+  P1       1.0000 0.25495  0.52052  0.46825  Biso   1.000  P 
+  P2       1.0000 0.74505  0.52052  0.46825  Biso   1.000  P 
+  P3       1.0000 0.24505  0.02052  0.46825  Biso   1.000  P 
+  P4       1.0000 0.75495  0.02052  0.46825  Biso   1.000  P 
+  P5       1.0000 0.14938  0.76277  0.49434  Biso   1.000  P 
+  P6       1.0000 0.85062  0.76277  0.49434  Biso   1.000  P 
+  P7       1.0000 0.35062  0.26277  0.49434  Biso   1.000  P 
+  P8       1.0000 0.64938  0.26277  0.49434  Biso   1.000  P 
+  P9       1.0000 0.22361  0.83240  0.72914  Biso   1.000  P 
+  P10      1.0000 0.77639  0.83240  0.72914  Biso   1.000  P 
+  P11      1.0000 0.27639  0.33240  0.72914  Biso   1.000  P 
+  P12      1.0000 0.72361  0.33240  0.72914  Biso   1.000  P 
+  P13      1.0000 0.22988  0.57995  0.73502  Biso   1.000  P 
+  P14      1.0000 0.77012  0.57995  0.73502  Biso   1.000  P 
+  P15      1.0000 0.27012  0.07995  0.73502  Biso   1.000  P 
+  P16      1.0000 0.72988  0.07995  0.73502  Biso   1.000  P 
+  P17      1.0000 0.00000  0.08273  0.27020  Biso   1.000  P 
+  P18      1.0000 0.50000  0.58273  0.27020  Biso   1.000  P 
+  P19      1.0000 0.00000  0.49142  0.94875  Biso   1.000  P 
+  P20      1.0000 0.50000  0.99142  0.94875  Biso   1.000  P 
+  P21      1.0000 0.00000  0.81059  0.95744  Biso   1.000  P 
+  P22      1.0000 0.50000  0.31059  0.95744  Biso   1.000  P 

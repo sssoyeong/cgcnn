@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       5.57829
+_cell_length_b       12.2512
+_cell_length_c       5.86369
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  C1       1.0000 0.67203  0.47992  0.25000  Biso   1.000  C 
+  C2       1.0000 0.67203  0.02008  0.75000  Biso   1.000  C 
+  C3       1.0000 0.32797  0.97992  0.25000  Biso   1.000  C 
+  C4       1.0000 0.32797  0.52008  0.75000  Biso   1.000  C 
+  O1       1.0000 0.11649  0.52185  0.25000  Biso   1.000  O 
+  O2       1.0000 0.11649  0.97815  0.75000  Biso   1.000  O 
+  O3       1.0000 0.88351  0.02185  0.25000  Biso   1.000  O 
+  O4       1.0000 0.88351  0.47815  0.75000  Biso   1.000  O 
+  O5       1.0000 0.03985  0.69880  0.25000  Biso   1.000  O 
+  O6       1.0000 0.03985  0.80120  0.75000  Biso   1.000  O 
+  O7       1.0000 0.96015  0.19880  0.25000  Biso   1.000  O 
+  O8       1.0000 0.96015  0.30120  0.75000  Biso   1.000  O 
+  N1       1.0000 0.59975  0.39016  0.25000  Biso   1.000  N 
+  N2       1.0000 0.59975  0.10984  0.75000  Biso   1.000  N 
+  N3       1.0000 0.40025  0.89016  0.25000  Biso   1.000  N 
+  N4       1.0000 0.40025  0.60984  0.75000  Biso   1.000  N 
+  N5       1.0000 0.73193  0.58363  0.25000  Biso   1.000  N 
+  N6       1.0000 0.73193  0.91637  0.75000  Biso   1.000  N 
+  N7       1.0000 0.26807  0.08363  0.25000  Biso   1.000  N 
+  N8       1.0000 0.26807  0.41637  0.75000  Biso   1.000  N 
+  N9       1.0000 0.97746  0.60119  0.25000  Biso   1.000  N 
+  N10      1.0000 0.97746  0.89881  0.75000  Biso   1.000  N 
+  N11      1.0000 0.02254  0.10119  0.25000  Biso   1.000  N 
+  N12      1.0000 0.02254  0.39881  0.75000  Biso   1.000  N 
+  Ag1      1.0000 0.50983  0.72740  0.25000  Biso   1.000  Ag
+  Ag2      1.0000 0.50983  0.77260  0.75000  Biso   1.000  Ag
+  Ag3      1.0000 0.49017  0.22740  0.25000  Biso   1.000  Ag
+  Ag4      1.0000 0.49017  0.27260  0.75000  Biso   1.000  Ag

@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       10.3991
+_cell_length_b       6.72234
+_cell_length_c       6.20183
+_cell_angle_alpha    64.7593
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.00000  0.00000  0.00000  Biso   1.000  Ag
+  Ag2      1.0000 0.50000  0.00000  0.50000  Biso   1.000  Ag
+  Ag3      1.0000 0.00000  0.50000  0.00000  Biso   1.000  Ag
+  Ag4      1.0000 0.50000  0.50000  0.50000  Biso   1.000  Ag
+  Na1      1.0000 0.14930  0.62430  0.46406  Biso   1.000  Na
+  Na2      1.0000 0.14930  0.12430  0.46406  Biso   1.000  Na
+  Na3      1.0000 0.35070  0.62430  0.96406  Biso   1.000  Na
+  Na4      1.0000 0.35070  0.12430  0.96406  Biso   1.000  Na
+  Na5      1.0000 0.85070  0.87570  0.53594  Biso   1.000  Na
+  Na6      1.0000 0.85070  0.37570  0.53594  Biso   1.000  Na
+  Na7      1.0000 0.64930  0.87570  0.03594  Biso   1.000  Na
+  Na8      1.0000 0.64930  0.37570  0.03594  Biso   1.000  Na
+  F1       1.0000 0.56143  0.71803  0.80002  Biso   1.000  F 
+  F2       1.0000 0.56143  0.21803  0.80002  Biso   1.000  F 
+  F3       1.0000 0.93857  0.71803  0.30002  Biso   1.000  F 
+  F4       1.0000 0.93857  0.21803  0.30002  Biso   1.000  F 
+  F5       1.0000 0.43857  0.78197  0.19998  Biso   1.000  F 
+  F6       1.0000 0.43857  0.28197  0.19998  Biso   1.000  F 
+  F7       1.0000 0.06143  0.78197  0.69998  Biso   1.000  F 
+  F8       1.0000 0.06143  0.28197  0.69998  Biso   1.000  F 
+  F9       1.0000 0.82761  0.51459  0.81298  Biso   1.000  F 
+  F10      1.0000 0.82761  0.01459  0.81298  Biso   1.000  F 
+  F11      1.0000 0.67239  0.51459  0.31298  Biso   1.000  F 
+  F12      1.0000 0.67239  0.01459  0.31298  Biso   1.000  F 
+  F13      1.0000 0.17239  0.98541  0.18702  Biso   1.000  F 
+  F14      1.0000 0.17239  0.48541  0.18702  Biso   1.000  F 
+  F15      1.0000 0.32761  0.98541  0.68702  Biso   1.000  F 
+  F16      1.0000 0.32761  0.48541  0.68702  Biso   1.000  F 

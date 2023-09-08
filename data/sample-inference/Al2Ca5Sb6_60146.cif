@@ -1,0 +1,50 @@
+data_image0
+_cell_length_a       4.47344
+_cell_length_b       12.0415
+_cell_length_c       14.2129
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ca1      1.0000 0.50000  0.82701  0.98638  Biso   1.000  Ca
+  Ca2      1.0000 0.50000  0.17299  0.01362  Biso   1.000  Ca
+  Ca3      1.0000 0.50000  0.67299  0.48638  Biso   1.000  Ca
+  Ca4      1.0000 0.50000  0.32701  0.51362  Biso   1.000  Ca
+  Ca5      1.0000 0.50000  0.09242  0.74720  Biso   1.000  Ca
+  Ca6      1.0000 0.50000  0.90758  0.25280  Biso   1.000  Ca
+  Ca7      1.0000 0.50000  0.40758  0.24720  Biso   1.000  Ca
+  Ca8      1.0000 0.50000  0.59242  0.75280  Biso   1.000  Ca
+  Ca9      1.0000 0.50000  0.00000  0.50000  Biso   1.000  Ca
+  Ca10     1.0000 0.50000  0.50000  0.00000  Biso   1.000  Ca
+  Al1      1.0000 0.00000  0.83281  0.78844  Biso   1.000  Al
+  Al2      1.0000 0.00000  0.16719  0.21156  Biso   1.000  Al
+  Al3      1.0000 0.00000  0.66719  0.28844  Biso   1.000  Al
+  Al4      1.0000 0.00000  0.33281  0.71156  Biso   1.000  Al
+  Sb1      1.0000 0.00000  0.65635  0.90646  Biso   1.000  Sb
+  Sb2      1.0000 0.00000  0.34365  0.09354  Biso   1.000  Sb
+  Sb3      1.0000 0.00000  0.84365  0.40646  Biso   1.000  Sb
+  Sb4      1.0000 0.00000  0.15635  0.59354  Biso   1.000  Sb
+  Sb5      1.0000 0.50000  0.83907  0.67835  Biso   1.000  Sb
+  Sb6      1.0000 0.50000  0.16093  0.32165  Biso   1.000  Sb
+  Sb7      1.0000 0.50000  0.66093  0.17835  Biso   1.000  Sb
+  Sb8      1.0000 0.50000  0.33907  0.82165  Biso   1.000  Sb
+  Sb9      1.0000 0.00000  0.02724  0.90008  Biso   1.000  Sb
+  Sb10     1.0000 0.00000  0.97276  0.09992  Biso   1.000  Sb
+  Sb11     1.0000 0.00000  0.47276  0.40008  Biso   1.000  Sb
+  Sb12     1.0000 0.00000  0.52724  0.59992  Biso   1.000  Sb

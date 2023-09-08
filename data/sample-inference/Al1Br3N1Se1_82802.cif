@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       10.2487
+_cell_length_b       7.66631
+_cell_length_c       10.3451
+_cell_angle_alpha    66.0551
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Br1      1.0000 0.34409  0.95122  0.85518  Biso   1.000  Br
+  Br2      1.0000 0.15591  0.95122  0.35518  Biso   1.000  Br
+  Br3      1.0000 0.65591  0.04878  0.14482  Biso   1.000  Br
+  Br4      1.0000 0.84409  0.04878  0.64482  Biso   1.000  Br
+  Br5      1.0000 0.18271  0.37121  0.55298  Biso   1.000  Br
+  Br6      1.0000 0.31729  0.37121  0.05298  Biso   1.000  Br
+  Br7      1.0000 0.81729  0.62879  0.44702  Biso   1.000  Br
+  Br8      1.0000 0.68271  0.62879  0.94702  Biso   1.000  Br
+  Br9      1.0000 0.52086  0.43222  0.69532  Biso   1.000  Br
+  Br10     1.0000 0.97914  0.43222  0.19532  Biso   1.000  Br
+  Br11     1.0000 0.47914  0.56778  0.30468  Biso   1.000  Br
+  Br12     1.0000 0.02086  0.56778  0.80468  Biso   1.000  Br
+  Se1      1.0000 0.46098  0.84193  0.61953  Biso   1.000  Se
+  Se2      1.0000 0.03902  0.84193  0.11953  Biso   1.000  Se
+  Se3      1.0000 0.53902  0.15807  0.38047  Biso   1.000  Se
+  Se4      1.0000 0.96098  0.15807  0.88047  Biso   1.000  Se
+  Al1      1.0000 0.37363  0.23001  0.65320  Biso   1.000  Al
+  Al2      1.0000 0.12637  0.23001  0.15320  Biso   1.000  Al
+  Al3      1.0000 0.62637  0.76999  0.34680  Biso   1.000  Al
+  Al4      1.0000 0.87363  0.76999  0.84680  Biso   1.000  Al
+  N1       1.0000 0.46219  0.10470  0.55301  Biso   1.000  N 
+  N2       1.0000 0.03781  0.10470  0.05301  Biso   1.000  N 
+  N3       1.0000 0.53781  0.89530  0.44699  Biso   1.000  N 
+  N4       1.0000 0.96219  0.89530  0.94699  Biso   1.000  N 

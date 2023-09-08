@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       7.20673
+_cell_length_b       8.26457
+_cell_length_c       13.4377
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Cd1      1.0000 0.00200  0.25000  0.58885  Biso   1.000  Cd
+  Cd2      1.0000 0.49800  0.25000  0.08885  Biso   1.000  Cd
+  Cd3      1.0000 0.99800  0.75000  0.41115  Biso   1.000  Cd
+  Cd4      1.0000 0.50200  0.75000  0.91115  Biso   1.000  Cd
+  Cd5      1.0000 0.50000  0.00000  0.50000  Biso   1.000  Cd
+  Cd6      1.0000 0.00000  0.50000  0.00000  Biso   1.000  Cd
+  Cd7      1.0000 0.50000  0.50000  0.50000  Biso   1.000  Cd
+  Cd8      1.0000 0.00000  0.00000  0.00000  Biso   1.000  Cd
+  Cd9      1.0000 0.49200  0.25000  0.76246  Biso   1.000  Cd
+  Cd10     1.0000 0.00800  0.25000  0.26246  Biso   1.000  Cd
+  Cd11     1.0000 0.50800  0.75000  0.23754  Biso   1.000  Cd
+  Cd12     1.0000 0.99200  0.75000  0.73754  Biso   1.000  Cd
+  As1      1.0000 0.35808  0.25000  0.58426  Biso   1.000  As
+  As2      1.0000 0.14192  0.25000  0.08426  Biso   1.000  As
+  As3      1.0000 0.64192  0.75000  0.41574  Biso   1.000  As
+  As4      1.0000 0.85808  0.75000  0.91574  Biso   1.000  As
+  Cl1      1.0000 0.69110  0.25000  0.91876  Biso   1.000  Cl
+  Cl2      1.0000 0.80890  0.25000  0.41876  Biso   1.000  Cl
+  Cl3      1.0000 0.30890  0.75000  0.08124  Biso   1.000  Cl
+  Cl4      1.0000 0.19110  0.75000  0.58124  Biso   1.000  Cl
+  Cl5      1.0000 0.80524  0.47852  0.66709  Biso   1.000  Cl
+  Cl6      1.0000 0.69476  0.02148  0.16709  Biso   1.000  Cl
+  Cl7      1.0000 0.19476  0.97852  0.33291  Biso   1.000  Cl
+  Cl8      1.0000 0.30524  0.52148  0.83291  Biso   1.000  Cl
+  Cl9      1.0000 0.19476  0.52148  0.33291  Biso   1.000  Cl
+  Cl10     1.0000 0.30524  0.97852  0.83291  Biso   1.000  Cl
+  Cl11     1.0000 0.80524  0.02148  0.66709  Biso   1.000  Cl
+  Cl12     1.0000 0.69476  0.47852  0.16709  Biso   1.000  Cl

@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       10.8904
+_cell_length_b       10.8904
+_cell_length_c       6.09709
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  La1      1.0000 0.23135  0.87299  0.73979  Biso   1.000  La
+  La2      1.0000 0.64165  0.76865  0.73979  Biso   1.000  La
+  La3      1.0000 0.12701  0.35835  0.73979  Biso   1.000  La
+  La4      1.0000 0.76865  0.12701  0.23979  Biso   1.000  La
+  La5      1.0000 0.35835  0.23135  0.23979  Biso   1.000  La
+  La6      1.0000 0.87299  0.64165  0.23979  Biso   1.000  La
+  Ag1      1.0000 0.00000  0.00000  0.19319  Biso   1.000  Ag
+  Ag2      1.0000 0.00000  0.00000  0.69319  Biso   1.000  Ag
+  Si1      1.0000 0.66667  0.33333  0.83372  Biso   1.000  Si
+  Si2      1.0000 0.33333  0.66667  0.33372  Biso   1.000  Si
+  Se1      1.0000 0.66667  0.33333  0.46084  Biso   1.000  Se
+  Se2      1.0000 0.33333  0.66667  0.96084  Biso   1.000  Se
+  Se3      1.0000 0.17396  0.90709  0.22133  Biso   1.000  Se
+  Se4      1.0000 0.73313  0.82604  0.22133  Biso   1.000  Se
+  Se5      1.0000 0.09291  0.26687  0.22133  Biso   1.000  Se
+  Se6      1.0000 0.82604  0.09291  0.72133  Biso   1.000  Se
+  Se7      1.0000 0.26687  0.17396  0.72133  Biso   1.000  Se
+  Se8      1.0000 0.90709  0.73313  0.72133  Biso   1.000  Se
+  Se9      1.0000 0.11024  0.58690  0.48091  Biso   1.000  Se
+  Se10     1.0000 0.47666  0.88976  0.48091  Biso   1.000  Se
+  Se11     1.0000 0.41310  0.52334  0.48091  Biso   1.000  Se
+  Se12     1.0000 0.88976  0.41310  0.98091  Biso   1.000  Se
+  Se13     1.0000 0.52334  0.11024  0.98091  Biso   1.000  Se
+  Se14     1.0000 0.58690  0.47666  0.98091  Biso   1.000  Se

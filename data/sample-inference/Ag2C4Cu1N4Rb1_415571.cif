@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       7.64614
+_cell_length_b       7.71807
+_cell_length_c       8.14153
+_cell_angle_alpha    76.5887
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.00000  0.00000  0.50000  Biso   1.000  Ag
+  Ag2      1.0000 0.00000  0.00000  0.00000  Biso   1.000  Ag
+  Ag3      1.0000 0.58024  1.00000  0.25000  Biso   1.000  Ag
+  Ag4      1.0000 0.41976  1.00000  0.75000  Biso   1.000  Ag
+  Cu1      1.0000 0.74344  0.50000  0.75000  Biso   1.000  Cu
+  Cu2      1.0000 0.25656  0.50000  0.25000  Biso   1.000  Cu
+  Rb1      1.0000 0.75307  0.50000  0.25000  Biso   1.000  Rb
+  Rb2      1.0000 0.24693  0.50000  0.75000  Biso   1.000  Rb
+  N1       1.0000 0.87534  0.33413  0.64440  Biso   1.000  N 
+  N2       1.0000 0.87534  0.66587  0.85560  Biso   1.000  N 
+  N3       1.0000 0.12466  0.66587  0.35560  Biso   1.000  N 
+  N4       1.0000 0.12466  0.33413  0.14440  Biso   1.000  N 
+  N5       1.0000 0.61234  0.33226  0.93059  Biso   1.000  N 
+  N6       1.0000 0.61234  0.66774  0.56941  Biso   1.000  N 
+  N7       1.0000 0.38766  0.66774  0.06941  Biso   1.000  N 
+  N8       1.0000 0.38766  0.33226  0.43059  Biso   1.000  N 
+  C1       1.0000 0.92238  0.21275  0.59128  Biso   1.000  C 
+  C2       1.0000 0.92238  0.78725  0.90872  Biso   1.000  C 
+  C3       1.0000 0.07762  0.78725  0.40872  Biso   1.000  C 
+  C4       1.0000 0.07762  0.21275  0.09128  Biso   1.000  C 
+  C5       1.0000 0.59285  0.20886  0.04483  Biso   1.000  C 
+  C6       1.0000 0.59285  0.79114  0.45517  Biso   1.000  C 
+  C7       1.0000 0.40715  0.79114  0.95517  Biso   1.000  C 
+  C8       1.0000 0.40715  0.20886  0.54483  Biso   1.000  C 

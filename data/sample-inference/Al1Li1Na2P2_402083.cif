@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       8.88406
+_cell_length_b       8.88406
+_cell_length_c       5.76693
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    99.1142
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Na1      1.0000 0.43159  0.06841  0.75000  Biso   1.000  Na
+  Na2      1.0000 0.06841  0.43159  0.25000  Biso   1.000  Na
+  Na3      1.0000 0.56841  0.93159  0.25000  Biso   1.000  Na
+  Na4      1.0000 0.93159  0.56841  0.75000  Biso   1.000  Na
+  Na5      1.0000 0.82162  0.17838  0.71431  Biso   1.000  Na
+  Na6      1.0000 0.17838  0.82162  0.28569  Biso   1.000  Na
+  Na7      1.0000 0.67838  0.32162  0.21431  Biso   1.000  Na
+  Na8      1.0000 0.32162  0.67838  0.78569  Biso   1.000  Na
+  Al1      1.0000 0.37042  0.37042  0.50000  Biso   1.000  Al
+  Al2      1.0000 0.87042  0.87042  0.00000  Biso   1.000  Al
+  Al3      1.0000 0.62958  0.62958  0.50000  Biso   1.000  Al
+  Al4      1.0000 0.12958  0.12958  0.00000  Biso   1.000  Al
+  P1       1.0000 0.64721  0.85279  0.75000  Biso   1.000  P 
+  P2       1.0000 0.85279  0.64721  0.25000  Biso   1.000  P 
+  P3       1.0000 0.35279  0.14721  0.25000  Biso   1.000  P 
+  P4       1.0000 0.14721  0.35279  0.75000  Biso   1.000  P 
+  P5       1.0000 0.60559  0.39441  0.71535  Biso   1.000  P 
+  P6       1.0000 0.39441  0.60559  0.28465  Biso   1.000  P 
+  P7       1.0000 0.89441  0.10559  0.21535  Biso   1.000  P 
+  P8       1.0000 0.10559  0.89441  0.78465  Biso   1.000  P 
+  Li1      1.0000 0.11905  0.11905  0.50000  Biso   1.000  Li
+  Li2      1.0000 0.61905  0.61905  0.00000  Biso   1.000  Li
+  Li3      1.0000 0.88095  0.88095  0.50000  Biso   1.000  Li
+  Li4      1.0000 0.38095  0.38095  0.00000  Biso   1.000  Li

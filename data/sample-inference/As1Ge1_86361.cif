@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       3.88616
+_cell_length_b       15.8488
+_cell_length_c       9.6315
+_cell_angle_alpha    78.7711
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ge1      1.0000 0.00000  0.74508  0.21487  Biso   1.000  Ge
+  Ge2      1.0000 0.00000  0.25492  0.78513  Biso   1.000  Ge
+  Ge3      1.0000 0.50000  0.75492  0.78513  Biso   1.000  Ge
+  Ge4      1.0000 0.50000  0.24508  0.21487  Biso   1.000  Ge
+  Ge5      1.0000 0.00000  0.62769  0.07626  Biso   1.000  Ge
+  Ge6      1.0000 0.00000  0.37231  0.92374  Biso   1.000  Ge
+  Ge7      1.0000 0.50000  0.87231  0.92374  Biso   1.000  Ge
+  Ge8      1.0000 0.50000  0.12769  0.07626  Biso   1.000  Ge
+  Ge9      1.0000 0.50000  0.56965  0.41115  Biso   1.000  Ge
+  Ge10     1.0000 0.50000  0.43035  0.58885  Biso   1.000  Ge
+  Ge11     1.0000 0.00000  0.93035  0.58885  Biso   1.000  Ge
+  Ge12     1.0000 0.00000  0.06965  0.41115  Biso   1.000  Ge
+  As1      1.0000 0.50000  0.84678  0.18832  Biso   1.000  As
+  As2      1.0000 0.50000  0.15322  0.81168  Biso   1.000  As
+  As3      1.0000 0.00000  0.65322  0.81168  Biso   1.000  As
+  As4      1.0000 0.00000  0.34678  0.18832  Biso   1.000  As
+  As5      1.0000 0.50000  0.53286  0.16881  Biso   1.000  As
+  As6      1.0000 0.50000  0.46714  0.83119  Biso   1.000  As
+  As7      1.0000 0.00000  0.96714  0.83119  Biso   1.000  As
+  As8      1.0000 0.00000  0.03286  0.16881  Biso   1.000  As
+  As9      1.0000 0.00000  0.66009  0.46061  Biso   1.000  As
+  As10     1.0000 0.00000  0.33991  0.53939  Biso   1.000  As
+  As11     1.0000 0.50000  0.83991  0.53939  Biso   1.000  As
+  As12     1.0000 0.50000  0.16009  0.46061  Biso   1.000  As

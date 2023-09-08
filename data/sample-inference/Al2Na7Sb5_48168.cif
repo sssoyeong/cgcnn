@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       13.5853
+_cell_length_b       7.78112
+_cell_length_c       8.2281
+_cell_angle_alpha    61.8247
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Na1      1.0000 0.57538  0.88942  0.41619  Biso   1.000  Na
+  Na2      1.0000 0.07538  0.11058  0.58381  Biso   1.000  Na
+  Na3      1.0000 0.42462  0.11058  0.58381  Biso   1.000  Na
+  Na4      1.0000 0.92462  0.88942  0.41619  Biso   1.000  Na
+  Na5      1.0000 0.42333  0.80873  0.11626  Biso   1.000  Na
+  Na6      1.0000 0.92333  0.19127  0.88374  Biso   1.000  Na
+  Na7      1.0000 0.57667  0.19127  0.88374  Biso   1.000  Na
+  Na8      1.0000 0.07667  0.80873  0.11626  Biso   1.000  Na
+  Na9      1.0000 0.75000  0.56172  0.74129  Biso   1.000  Na
+  Na10     1.0000 0.25000  0.43828  0.25871  Biso   1.000  Na
+  Na11     1.0000 0.75000  0.77103  0.14339  Biso   1.000  Na
+  Na12     1.0000 0.25000  0.22897  0.85661  Biso   1.000  Na
+  Na13     1.0000 0.75000  0.09928  0.59377  Biso   1.000  Na
+  Na14     1.0000 0.25000  0.90072  0.40623  Biso   1.000  Na
+  Al1      1.0000 0.41115  0.58723  0.83931  Biso   1.000  Al
+  Al2      1.0000 0.91115  0.41277  0.16069  Biso   1.000  Al
+  Al3      1.0000 0.58885  0.41277  0.16069  Biso   1.000  Al
+  Al4      1.0000 0.08885  0.58723  0.83931  Biso   1.000  Al
+  Sb1      1.0000 0.57992  0.77821  0.84851  Biso   1.000  Sb
+  Sb2      1.0000 0.07992  0.22179  0.15149  Biso   1.000  Sb
+  Sb3      1.0000 0.42008  0.22179  0.15149  Biso   1.000  Sb
+  Sb4      1.0000 0.92008  0.77821  0.84851  Biso   1.000  Sb
+  Sb5      1.0000 0.39627  0.52911  0.53596  Biso   1.000  Sb
+  Sb6      1.0000 0.89627  0.47089  0.46404  Biso   1.000  Sb
+  Sb7      1.0000 0.60373  0.47089  0.46404  Biso   1.000  Sb
+  Sb8      1.0000 0.10373  0.52911  0.53596  Biso   1.000  Sb
+  Sb9      1.0000 0.75000  0.19606  0.16118  Biso   1.000  Sb
+  Sb10     1.0000 0.25000  0.80394  0.83882  Biso   1.000  Sb

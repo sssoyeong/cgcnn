@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       7.88087
+_cell_length_b       4.63409
+_cell_length_c       10.9907
+_cell_angle_alpha    60.1803
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.47737  0.84050  0.29373  Biso   1.000  Ag
+  Ag2      1.0000 0.02263  0.84050  0.79373  Biso   1.000  Ag
+  Ag3      1.0000 0.52263  0.15950  0.70627  Biso   1.000  Ag
+  Ag4      1.0000 0.97737  0.15950  0.20627  Biso   1.000  Ag
+  Ag5      1.0000 0.61645  0.74359  0.06361  Biso   1.000  Ag
+  Ag6      1.0000 0.88355  0.74359  0.56361  Biso   1.000  Ag
+  Ag7      1.0000 0.38355  0.25641  0.93639  Biso   1.000  Ag
+  Ag8      1.0000 0.11645  0.25641  0.43639  Biso   1.000  Ag
+  S1       1.0000 0.20562  0.56661  0.12003  Biso   1.000  S 
+  S2       1.0000 0.29438  0.56661  0.62003  Biso   1.000  S 
+  S3       1.0000 0.79438  0.43339  0.87997  Biso   1.000  S 
+  S4       1.0000 0.70562  0.43339  0.37997  Biso   1.000  S 
+  O1       1.0000 0.21748  0.71499  0.21627  Biso   1.000  O 
+  O2       1.0000 0.28252  0.71499  0.71627  Biso   1.000  O 
+  O3       1.0000 0.78252  0.28501  0.78373  Biso   1.000  O 
+  O4       1.0000 0.71748  0.28501  0.28373  Biso   1.000  O 
+  O5       1.0000 0.31061  0.86167  0.47129  Biso   1.000  O 
+  O6       1.0000 0.18939  0.86167  0.97129  Biso   1.000  O 
+  O7       1.0000 0.68939  0.13833  0.52871  Biso   1.000  O 
+  O8       1.0000 0.81061  0.13833  0.02871  Biso   1.000  O 
+  O9       1.0000 0.37905  0.40623  0.12630  Biso   1.000  O 
+  O10      1.0000 0.12095  0.40623  0.62630  Biso   1.000  O 
+  O11      1.0000 0.62095  0.59377  0.87370  Biso   1.000  O 
+  O12      1.0000 0.87905  0.59377  0.37370  Biso   1.000  O 

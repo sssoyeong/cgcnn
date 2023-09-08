@@ -1,0 +1,54 @@
+data_image0
+_cell_length_a       7.07002
+_cell_length_b       7.7714
+_cell_length_c       17.5491
+_cell_angle_alpha    88.8867
+_cell_angle_beta     82.9544
+_cell_angle_gamma    83.5748
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Al1      1.0000 0.06734  0.20332  0.74731  Biso   1.000  Al
+  Al2      1.0000 0.02554  0.72514  0.10143  Biso   1.000  Al
+  Al3      1.0000 0.63523  0.16059  0.75634  Biso   1.000  Al
+  Al4      1.0000 0.83822  0.81499  0.81148  Biso   1.000  Al
+  Al5      1.0000 0.94384  0.25412  0.57095  Biso   1.000  Al
+  Al6      1.0000 0.34726  0.76743  0.27649  Biso   1.000  Al
+  In1      1.0000 0.04463  0.80429  0.53477  Biso   1.000  In
+  In2      1.0000 0.38415  0.71169  0.64236  Biso   1.000  In
+  In3      1.0000 0.94527  0.20208  0.38043  Biso   1.000  In
+  In4      1.0000 0.33452  0.86888  0.88014  Biso   1.000  In
+  In5      1.0000 0.48533  0.44004  0.47801  Biso   1.000  In
+  In6      1.0000 0.05839  0.21779  0.10510  Biso   1.000  In
+  Se1      1.0000 0.52561  0.00929  0.22008  Biso   1.000  Se
+  Se2      1.0000 0.11403  0.62123  0.22474  Biso   1.000  Se
+  Se3      1.0000 0.16069  0.67700  0.79471  Biso   1.000  Se
+  Se4      1.0000 0.23758  0.92166  0.03355  Biso   1.000  Se
+  Se5      1.0000 0.71051  0.89029  0.69152  Biso   1.000  Se
+  Se6      1.0000 0.79731  0.39729  0.69259  Biso   1.000  Se
+  Se7      1.0000 0.03353  0.45267  0.46827  Biso   1.000  Se
+  Se8      1.0000 0.77963  0.98457  0.10822  Biso   1.000  Se
+  Se9      1.0000 0.74670  0.07741  0.50998  Biso   1.000  Se
+  Se10     1.0000 0.62727  0.63278  0.33088  Biso   1.000  Se
+  Se11     1.0000 0.92629  0.49354  0.03615  Biso   1.000  Se
+  Se12     1.0000 0.32394  0.21085  0.83090  Biso   1.000  Se
+  Se13     1.0000 0.29868  0.28257  0.20332  Biso   1.000  Se
+  Se14     1.0000 0.23163  0.95247  0.38409  Biso   1.000  Se
+  Se15     1.0000 0.84681  0.11460  0.85645  Biso   1.000  Se
+  Se16     1.0000 0.64117  0.66951  0.90139  Biso   1.000  Se
+  Se17     1.0000 0.22698  0.11475  0.62446  Biso   1.000  Se
+  Se18     1.0000 0.66194  0.32715  0.29991  Biso   1.000  Se

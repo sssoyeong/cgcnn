@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       11.2115
+_cell_length_b       11.2115
+_cell_length_c       11.2115
+_cell_angle_alpha    150.006
+_cell_angle_beta     148.746
+_cell_angle_gamma    43.8669
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  K1       1.0000 0.06942  0.31942  0.75000  Biso   1.000  K 
+  K2       1.0000 0.43058  0.18058  0.25000  Biso   1.000  K 
+  K3       1.0000 0.93058  0.68058  0.25000  Biso   1.000  K 
+  K4       1.0000 0.56942  0.81942  0.75000  Biso   1.000  K 
+  C1       1.0000 0.37676  0.62676  0.75000  Biso   1.000  C 
+  C2       1.0000 0.12324  0.87324  0.25000  Biso   1.000  C 
+  C3       1.0000 0.62324  0.37324  0.25000  Biso   1.000  C 
+  C4       1.0000 0.87676  0.12676  0.75000  Biso   1.000  C 
+  O1       1.0000 0.43861  0.68861  0.75000  Biso   1.000  O 
+  O2       1.0000 0.06139  0.81139  0.25000  Biso   1.000  O 
+  O3       1.0000 0.56139  0.31139  0.25000  Biso   1.000  O 
+  O4       1.0000 0.93861  0.18861  0.75000  Biso   1.000  O 
+  O5       1.0000 0.47534  0.45062  0.73226  Biso   1.000  O 
+  O6       1.0000 0.21835  0.74308  0.76774  Biso   1.000  O 
+  O7       1.0000 0.02466  0.75692  0.97528  Biso   1.000  O 
+  O8       1.0000 0.28165  0.04938  0.52472  Biso   1.000  O 
+  O9       1.0000 0.52466  0.54938  0.26774  Biso   1.000  O 
+  O10      1.0000 0.78165  0.25692  0.23226  Biso   1.000  O 
+  O11      1.0000 0.97534  0.24308  0.02472  Biso   1.000  O 
+  O12      1.0000 0.71835  0.95062  0.47528  Biso   1.000  O 
+  Ag1      1.0000 0.35819  0.25000  0.60819  Biso   1.000  Ag
+  Ag2      1.0000 0.14181  0.75000  0.89181  Biso   1.000  Ag
+  Ag3      1.0000 0.64181  0.75000  0.39181  Biso   1.000  Ag
+  Ag4      1.0000 0.85819  0.25000  0.10819  Biso   1.000  Ag

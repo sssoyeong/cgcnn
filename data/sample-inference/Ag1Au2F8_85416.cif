@@ -1,0 +1,46 @@
+data_image0
+_cell_length_a       11.3228
+_cell_length_b       5.53324
+_cell_length_c       5.63446
+_cell_angle_alpha    85.8212
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.50000  1.00000  0.50000  Biso   1.000  Ag
+  Ag2      1.0000 0.00000  0.50000  1.00000  Biso   1.000  Ag
+  Au1      1.0000 0.17981  0.76867  0.48598  Biso   1.000  Au
+  Au2      1.0000 0.67981  0.73133  0.01402  Biso   1.000  Au
+  Au3      1.0000 0.82019  0.23133  0.51402  Biso   1.000  Au
+  Au4      1.0000 0.32019  0.26867  0.98598  Biso   1.000  Au
+  F1       1.0000 0.08629  0.77515  0.18899  Biso   1.000  F 
+  F2       1.0000 0.58629  0.72485  0.31101  Biso   1.000  F 
+  F3       1.0000 0.91371  0.22485  0.81101  Biso   1.000  F 
+  F4       1.0000 0.41371  0.27515  0.68899  Biso   1.000  F 
+  F5       1.0000 0.03153  0.73299  0.67025  Biso   1.000  F 
+  F6       1.0000 0.53153  0.76701  0.82975  Biso   1.000  F 
+  F7       1.0000 0.96847  0.26701  0.32975  Biso   1.000  F 
+  F8       1.0000 0.46847  0.23299  0.17025  Biso   1.000  F 
+  F9       1.0000 0.32502  0.80320  0.30289  Biso   1.000  F 
+  F10      1.0000 0.82502  0.69680  0.19711  Biso   1.000  F 
+  F11      1.0000 0.67498  0.19680  0.69711  Biso   1.000  F 
+  F12      1.0000 0.17498  0.30320  0.80289  Biso   1.000  F 
+  F13      1.0000 0.27476  0.78707  0.76874  Biso   1.000  F 
+  F14      1.0000 0.77476  0.71293  0.73126  Biso   1.000  F 
+  F15      1.0000 0.72524  0.21293  0.23126  Biso   1.000  F 
+  F16      1.0000 0.22524  0.28707  0.26874  Biso   1.000  F 

@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       6.85686
+_cell_length_b       9.6595
+_cell_length_c       10.9945
+_cell_angle_alpha    90.7386
+_cell_angle_beta     92.9682
+_cell_angle_gamma    90.8726
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Sb1      1.0000 0.52324  0.05092  0.15219  Biso   1.000  Sb
+  Sb2      1.0000 0.47676  0.94908  0.84781  Biso   1.000  Sb
+  Sb3      1.0000 0.04638  0.79373  0.33964  Biso   1.000  Sb
+  Sb4      1.0000 0.95362  0.20627  0.66036  Biso   1.000  Sb
+  Ag1      1.0000 0.51378  0.74167  0.14760  Biso   1.000  Ag
+  Ag2      1.0000 0.48622  0.25833  0.85240  Biso   1.000  Ag
+  Ag3      1.0000 0.09764  0.83085  0.04882  Biso   1.000  Ag
+  Ag4      1.0000 0.90236  0.16915  0.95118  Biso   1.000  Ag
+  Ag5      1.0000 0.00389  0.11410  0.33560  Biso   1.000  Ag
+  Ag6      1.0000 0.99611  0.88590  0.66440  Biso   1.000  Ag
+  Ag7      1.0000 0.41417  0.16823  0.54623  Biso   1.000  Ag
+  Ag8      1.0000 0.58583  0.83177  0.45377  Biso   1.000  Ag
+  S1       1.0000 0.63427  0.08192  0.36714  Biso   1.000  S 
+  S2       1.0000 0.36573  0.91808  0.63286  Biso   1.000  S 
+  S3       1.0000 0.34977  0.65661  0.33553  Biso   1.000  S 
+  S4       1.0000 0.65023  0.34339  0.66447  Biso   1.000  S 
+  S5       1.0000 0.63795  0.27897  0.07612  Biso   1.000  S 
+  S6       1.0000 0.36205  0.72103  0.92388  Biso   1.000  S 
+  S7       1.0000 0.16367  0.07973  0.13844  Biso   1.000  S 
+  S8       1.0000 0.83633  0.92027  0.86156  Biso   1.000  S 
+  S9       1.0000 0.88840  0.69408  0.51646  Biso   1.000  S 
+  S10      1.0000 0.11160  0.30592  0.48354  Biso   1.000  S 
+  S11      1.0000 0.87259  0.66681  0.16615  Biso   1.000  S 
+  S12      1.0000 0.12741  0.33319  0.83385  Biso   1.000  S 
+  K1       1.0000 0.29583  0.56894  0.63370  Biso   1.000  K 
+  K2       1.0000 0.70417  0.43106  0.36630  Biso   1.000  K 
+  K3       1.0000 0.20215  0.42131  0.12535  Biso   1.000  K 
+  K4       1.0000 0.79785  0.57869  0.87465  Biso   1.000  K 

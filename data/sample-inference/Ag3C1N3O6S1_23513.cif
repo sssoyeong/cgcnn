@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       6.5896
+_cell_length_b       8.36356
+_cell_length_c       8.43384
+_cell_angle_alpha    110.849
+_cell_angle_beta     93.9471
+_cell_angle_gamma    91.1676
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.00000  0.00000  0.00000  Biso   1.000  Ag
+  Ag2      1.0000 0.50000  1.00000  1.00000  Biso   1.000  Ag
+  Ag3      1.0000 0.93894  0.27660  0.67664  Biso   1.000  Ag
+  Ag4      1.0000 0.06106  0.72340  0.32336  Biso   1.000  Ag
+  Ag5      1.0000 0.59980  0.63743  0.30726  Biso   1.000  Ag
+  Ag6      1.0000 0.40020  0.36257  0.69274  Biso   1.000  Ag
+  S1       1.0000 0.78224  0.77447  0.11823  Biso   1.000  S 
+  S2       1.0000 0.21776  0.22553  0.88177  Biso   1.000  S 
+  O1       1.0000 0.57380  0.79851  0.61130  Biso   1.000  O 
+  O2       1.0000 0.42620  0.20149  0.38870  Biso   1.000  O 
+  O3       1.0000 0.73866  0.98933  0.53744  Biso   1.000  O 
+  O4       1.0000 0.26134  0.01067  0.46256  Biso   1.000  O 
+  O5       1.0000 0.68817  0.04600  0.80540  Biso   1.000  O 
+  O6       1.0000 0.31183  0.95400  0.19460  Biso   1.000  O 
+  O7       1.0000 0.81447  0.26060  0.15263  Biso   1.000  O 
+  O8       1.0000 0.18553  0.73940  0.84737  Biso   1.000  O 
+  O9       1.0000 0.77905  0.44327  0.41176  Biso   1.000  O 
+  O10      1.0000 0.22095  0.55673  0.58824  Biso   1.000  O 
+  O11      1.0000 0.93439  0.20471  0.37594  Biso   1.000  O 
+  O12      1.0000 0.06561  0.79529  0.62406  Biso   1.000  O 
+  N1       1.0000 0.66583  0.94202  0.64854  Biso   1.000  N 
+  N2       1.0000 0.33417  0.05798  0.35146  Biso   1.000  N 
+  N3       1.0000 0.84216  0.30378  0.31403  Biso   1.000  N 
+  N4       1.0000 0.15784  0.69622  0.68597  Biso   1.000  N 
+  N5       1.0000 0.71779  0.47617  0.82125  Biso   1.000  N 
+  N6       1.0000 0.28221  0.52383  0.17875  Biso   1.000  N 
+  C1       1.0000 0.74927  0.59992  0.94606  Biso   1.000  C 
+  C2       1.0000 0.25073  0.40008  0.05394  Biso   1.000  C 

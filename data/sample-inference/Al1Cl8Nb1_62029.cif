@@ -1,0 +1,44 @@
+data_image0
+_cell_length_a       9.70038
+_cell_length_b       9.70038
+_cell_length_c       8.40942
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    129.313
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Nb1      1.0000 0.88866  0.11134  0.25000  Biso   1.000  Nb
+  Nb2      1.0000 0.11134  0.88866  0.75000  Biso   1.000  Nb
+  Al1      1.0000 0.68457  0.31543  0.25000  Biso   1.000  Al
+  Al2      1.0000 0.31543  0.68457  0.75000  Biso   1.000  Al
+  Cl1      1.0000 0.56880  0.03060  0.25000  Biso   1.000  Cl
+  Cl2      1.0000 0.03060  0.56880  0.75000  Biso   1.000  Cl
+  Cl3      1.0000 0.43120  0.96940  0.75000  Biso   1.000  Cl
+  Cl4      1.0000 0.96940  0.43120  0.25000  Biso   1.000  Cl
+  Cl5      1.0000 0.75655  0.81817  0.25000  Biso   1.000  Cl
+  Cl6      1.0000 0.81817  0.75655  0.75000  Biso   1.000  Cl
+  Cl7      1.0000 0.24345  0.18183  0.75000  Biso   1.000  Cl
+  Cl8      1.0000 0.18183  0.24345  0.25000  Biso   1.000  Cl
+  Cl9      1.0000 0.86763  0.13237  0.97718  Biso   1.000  Cl
+  Cl10     1.0000 0.13237  0.86763  0.02282  Biso   1.000  Cl
+  Cl11     1.0000 0.86763  0.13237  0.52282  Biso   1.000  Cl
+  Cl12     1.0000 0.13237  0.86763  0.47718  Biso   1.000  Cl
+  Cl13     1.0000 0.62017  0.37983  0.46186  Biso   1.000  Cl
+  Cl14     1.0000 0.37983  0.62017  0.53814  Biso   1.000  Cl
+  Cl15     1.0000 0.62017  0.37983  0.03814  Biso   1.000  Cl
+  Cl16     1.0000 0.37983  0.62017  0.96186  Biso   1.000  Cl

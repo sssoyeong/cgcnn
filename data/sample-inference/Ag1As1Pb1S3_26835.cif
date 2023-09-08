@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       12.7143
+_cell_length_b       6.02091
+_cell_length_c       7.59684
+_cell_angle_alpha    92.4055
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  As1      1.0000 0.60064  0.22425  0.16355  Biso   1.000  As
+  As2      1.0000 0.10064  0.77575  0.33645  Biso   1.000  As
+  As3      1.0000 0.39936  0.77575  0.83645  Biso   1.000  As
+  As4      1.0000 0.89936  0.22425  0.66355  Biso   1.000  As
+  Pb1      1.0000 0.92507  0.26219  0.16681  Biso   1.000  Pb
+  Pb2      1.0000 0.42507  0.73781  0.33319  Biso   1.000  Pb
+  Pb3      1.0000 0.07493  0.73781  0.83319  Biso   1.000  Pb
+  Pb4      1.0000 0.57493  0.26219  0.66681  Biso   1.000  Pb
+  Ag1      1.0000 0.25926  0.25542  0.10361  Biso   1.000  Ag
+  Ag2      1.0000 0.75926  0.74458  0.39639  Biso   1.000  Ag
+  Ag3      1.0000 0.74074  0.74458  0.89639  Biso   1.000  Ag
+  Ag4      1.0000 0.24074  0.25542  0.60361  Biso   1.000  Ag
+  S1       1.0000 0.72288  0.32136  0.37249  Biso   1.000  S 
+  S2       1.0000 0.22288  0.67864  0.12751  Biso   1.000  S 
+  S3       1.0000 0.27712  0.67864  0.62751  Biso   1.000  S 
+  S4       1.0000 0.77712  0.32136  0.87249  Biso   1.000  S 
+  S5       1.0000 0.13149  0.15153  0.34266  Biso   1.000  S 
+  S6       1.0000 0.63149  0.84847  0.15734  Biso   1.000  S 
+  S7       1.0000 0.86851  0.84847  0.65734  Biso   1.000  S 
+  S8       1.0000 0.36851  0.15153  0.84266  Biso   1.000  S 
+  S9       1.0000 0.45064  0.24192  0.34040  Biso   1.000  S 
+  S10      1.0000 0.95064  0.75808  0.15960  Biso   1.000  S 
+  S11      1.0000 0.54936  0.75808  0.65960  Biso   1.000  S 
+  S12      1.0000 0.04936  0.24192  0.84040  Biso   1.000  S 

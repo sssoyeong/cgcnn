@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       7.11103
+_cell_length_b       7.11103
+_cell_length_c       9.83149
+_cell_angle_alpha    72.2504
+_cell_angle_beta     72.2504
+_cell_angle_gamma    90.9366
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Cs1      1.0000 0.11305  0.88695  0.25000  Biso   1.000  Cs
+  Cs2      1.0000 0.88695  0.11305  0.75000  Biso   1.000  Cs
+  As1      1.0000 0.67698  0.32302  0.25000  Biso   1.000  As
+  As2      1.0000 0.32302  0.67698  0.75000  Biso   1.000  As
+  Se1      1.0000 0.65673  0.06691  0.15524  Biso   1.000  Se
+  Se2      1.0000 0.93309  0.34327  0.34476  Biso   1.000  Se
+  Se3      1.0000 0.34327  0.93309  0.84476  Biso   1.000  Se
+  Se4      1.0000 0.06691  0.65673  0.65524  Biso   1.000  Se
+  C1       1.0000 0.42288  0.30700  0.40596  Biso   1.000  C 
+  C2       1.0000 0.69300  0.57712  0.09404  Biso   1.000  C 
+  C3       1.0000 0.57712  0.69300  0.59404  Biso   1.000  C 
+  C4       1.0000 0.30700  0.42288  0.90596  Biso   1.000  C 
+  H1       1.0000 0.30399  0.28913  0.35920  Biso   1.000  H 
+  H2       1.0000 0.71087  0.69601  0.14080  Biso   1.000  H 
+  H3       1.0000 0.69601  0.71087  0.64080  Biso   1.000  H 
+  H4       1.0000 0.28913  0.30399  0.85920  Biso   1.000  H 
+  H5       1.0000 0.41223  0.17870  0.50569  Biso   1.000  H 
+  H6       1.0000 0.82130  0.58777  0.99431  Biso   1.000  H 
+  H7       1.0000 0.58777  0.82130  0.49431  Biso   1.000  H 
+  H8       1.0000 0.17870  0.41223  0.00569  Biso   1.000  H 
+  H9       1.0000 0.41661  0.44456  0.43515  Biso   1.000  H 
+  H10      1.0000 0.55544  0.58339  0.06485  Biso   1.000  H 
+  H11      1.0000 0.58339  0.55544  0.56485  Biso   1.000  H 
+  H12      1.0000 0.44456  0.41661  0.93515  Biso   1.000  H 

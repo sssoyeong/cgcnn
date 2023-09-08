@@ -1,0 +1,53 @@
+data_image0
+_cell_length_a       9.56182
+_cell_length_b       9.56182
+_cell_length_c       9.56182
+_cell_angle_alpha    87.0138
+_cell_angle_beta     87.0138
+_cell_angle_gamma    87.0138
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Sr1      1.0000 0.27218  0.41282  0.77435  Biso   1.000  Sr
+  Sr2      1.0000 0.41282  0.77435  0.27218  Biso   1.000  Sr
+  Sr3      1.0000 0.77435  0.27218  0.41282  Biso   1.000  Sr
+  Sr4      1.0000 0.53770  0.98927  0.65217  Biso   1.000  Sr
+  Sr5      1.0000 0.98927  0.65217  0.53770  Biso   1.000  Sr
+  Sr6      1.0000 0.65217  0.53770  0.98927  Biso   1.000  Sr
+  Sr7      1.0000 0.53680  0.17511  0.02134  Biso   1.000  Sr
+  Sr8      1.0000 0.17511  0.02134  0.53680  Biso   1.000  Sr
+  Sr9      1.0000 0.02134  0.53680  0.17511  Biso   1.000  Sr
+  Sr10     1.0000 0.26620  0.76432  0.90906  Biso   1.000  Sr
+  Sr11     1.0000 0.76432  0.90906  0.26620  Biso   1.000  Sr
+  Sr12     1.0000 0.90906  0.26620  0.76432  Biso   1.000  Sr
+  Sr13     1.0000 0.18678  0.18678  0.18678  Biso   1.000  Sr
+  Sr14     1.0000 0.40036  0.40036  0.40036  Biso   1.000  Sr
+  Sn1      1.0000 0.99922  0.99922  0.99922  Biso   1.000  Sn
+  Sn2      1.0000 0.83426  0.83426  0.83426  Biso   1.000  Sn
+  Sn3      1.0000 0.61007  0.61007  0.61007  Biso   1.000  Sn
+  As1      1.0000 0.32894  0.70351  0.58840  Biso   1.000  As
+  As2      1.0000 0.70351  0.58840  0.32894  Biso   1.000  As
+  As3      1.0000 0.58840  0.32894  0.70351  Biso   1.000  As
+  As4      1.0000 0.96866  0.58527  0.85959  Biso   1.000  As
+  As5      1.0000 0.58527  0.85959  0.96866  Biso   1.000  As
+  As6      1.0000 0.85959  0.96866  0.58527  Biso   1.000  As
+  As7      1.0000 0.34256  0.47252  0.08427  Biso   1.000  As
+  As8      1.0000 0.47252  0.08427  0.34256  Biso   1.000  As
+  As9      1.0000 0.08427  0.34256  0.47252  Biso   1.000  As
+  As10     1.0000 0.22702  0.09645  0.85551  Biso   1.000  As
+  As11     1.0000 0.09645  0.85551  0.22702  Biso   1.000  As
+  As12     1.0000 0.85551  0.22702  0.09645  Biso   1.000  As

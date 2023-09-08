@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       7.58319
+_cell_length_b       4.70304
+_cell_length_c       7.66472
+_cell_angle_alpha    67.9741
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Al1      1.0000 0.30063  0.12384  0.57140  Biso   1.000  Al
+  Al2      1.0000 0.80063  0.87616  0.92860  Biso   1.000  Al
+  Al3      1.0000 0.69937  0.87616  0.42860  Biso   1.000  Al
+  Al4      1.0000 0.19937  0.12384  0.07140  Biso   1.000  Al
+  Li1      1.0000 0.02985  0.56242  0.67701  Biso   1.000  Li
+  Li2      1.0000 0.52985  0.43758  0.82299  Biso   1.000  Li
+  Li3      1.0000 0.97015  0.43758  0.32299  Biso   1.000  Li
+  Li4      1.0000 0.47015  0.56242  0.17701  Biso   1.000  Li
+  H1       1.0000 0.40676  0.16789  0.74273  Biso   1.000  H 
+  H2       1.0000 0.90676  0.83211  0.75727  Biso   1.000  H 
+  H3       1.0000 0.59324  0.83211  0.25727  Biso   1.000  H 
+  H4       1.0000 0.09324  0.16789  0.24273  Biso   1.000  H 
+  H5       1.0000 0.12576  0.34546  0.52474  Biso   1.000  H 
+  H6       1.0000 0.62576  0.65454  0.97526  Biso   1.000  H 
+  H7       1.0000 0.87424  0.65454  0.47526  Biso   1.000  H 
+  H8       1.0000 0.37424  0.34546  0.02474  Biso   1.000  H 
+  H9       1.0000 0.42063  0.22373  0.38299  Biso   1.000  H 
+  H10      1.0000 0.92063  0.77627  0.11701  Biso   1.000  H 
+  H11      1.0000 0.57937  0.77627  0.61701  Biso   1.000  H 
+  H12      1.0000 0.07937  0.22373  0.88299  Biso   1.000  H 
+  H13      1.0000 0.24092  0.76897  0.63579  Biso   1.000  H 
+  H14      1.0000 0.74092  0.23103  0.86421  Biso   1.000  H 
+  H15      1.0000 0.75908  0.23103  0.36421  Biso   1.000  H 
+  H16      1.0000 0.25908  0.76897  0.13579  Biso   1.000  H 

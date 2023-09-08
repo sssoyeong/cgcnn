@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       6.10864
+_cell_length_b       6.89324
+_cell_length_c       9.8441
+_cell_angle_alpha    86.1808
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ca1      1.0000 0.35789  0.07794  0.34991  Biso   1.000  Ca
+  Ca2      1.0000 0.85789  0.92206  0.15009  Biso   1.000  Ca
+  Ca3      1.0000 0.64210  0.92206  0.65009  Biso   1.000  Ca
+  Ca4      1.0000 0.14210  0.07794  0.84991  Biso   1.000  Ca
+  Ca5      1.0000 0.21012  0.37375  0.07537  Biso   1.000  Ca
+  Ca6      1.0000 0.71012  0.62625  0.42463  Biso   1.000  Ca
+  Ca7      1.0000 0.78988  0.62625  0.92463  Biso   1.000  Ca
+  Ca8      1.0000 0.28988  0.37375  0.57537  Biso   1.000  Ca
+  Ca9      1.0000 0.22132  0.64689  0.30508  Biso   1.000  Ca
+  Ca10     1.0000 0.72132  0.35311  0.19492  Biso   1.000  Ca
+  Ca11     1.0000 0.77868  0.35311  0.69492  Biso   1.000  Ca
+  Ca12     1.0000 0.27868  0.64689  0.80508  Biso   1.000  Ca
+  Al1      1.0000 0.40824  0.83961  0.05924  Biso   1.000  Al
+  Al2      1.0000 0.90824  0.16039  0.44076  Biso   1.000  Al
+  Al3      1.0000 0.59176  0.16039  0.94076  Biso   1.000  Al
+  Al4      1.0000 0.09176  0.83961  0.55924  Biso   1.000  Al
+  N1       1.0000 0.46273  0.10232  0.11875  Biso   1.000  N 
+  N2       1.0000 0.96273  0.89768  0.38125  Biso   1.000  N 
+  N3       1.0000 0.53727  0.89768  0.88125  Biso   1.000  N 
+  N4       1.0000 0.03727  0.10232  0.61875  Biso   1.000  N 
+  N5       1.0000 0.37792  0.74078  0.52728  Biso   1.000  N 
+  N6       1.0000 0.87792  0.25921  0.97272  Biso   1.000  N 
+  N7       1.0000 0.62208  0.25922  0.47272  Biso   1.000  N 
+  N8       1.0000 0.12208  0.74079  0.02728  Biso   1.000  N 
+  N9       1.0000 0.43112  0.34174  0.82615  Biso   1.000  N 
+  N10      1.0000 0.93112  0.65826  0.67385  Biso   1.000  N 
+  N11      1.0000 0.56888  0.65826  0.17385  Biso   1.000  N 
+  N12      1.0000 0.06888  0.34174  0.32615  Biso   1.000  N 

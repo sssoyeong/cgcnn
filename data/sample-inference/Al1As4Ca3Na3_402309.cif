@@ -1,0 +1,46 @@
+data_image0
+_cell_length_a       9.44238
+_cell_length_b       9.44238
+_cell_length_c       7.19581
+_cell_angle_alpha    90
+_cell_angle_beta     90
+_cell_angle_gamma    120
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Na1      1.0000 0.86277  0.72554  0.67257  Biso   1.000  Na
+  Na2      1.0000 0.27446  0.13723  0.67257  Biso   1.000  Na
+  Na3      1.0000 0.86277  0.13723  0.67257  Biso   1.000  Na
+  Na4      1.0000 0.13723  0.27446  0.17257  Biso   1.000  Na
+  Na5      1.0000 0.72554  0.86277  0.17257  Biso   1.000  Na
+  Na6      1.0000 0.13723  0.86277  0.17257  Biso   1.000  Na
+  Ca1      1.0000 0.47488  0.94977  0.50056  Biso   1.000  Ca
+  Ca2      1.0000 0.05023  0.52512  0.50056  Biso   1.000  Ca
+  Ca3      1.0000 0.47488  0.52512  0.50056  Biso   1.000  Ca
+  Ca4      1.0000 0.52512  0.05023  0.00056  Biso   1.000  Ca
+  Ca5      1.0000 0.94977  0.47488  0.00056  Biso   1.000  Ca
+  Ca6      1.0000 0.52512  0.47488  0.00056  Biso   1.000  Ca
+  Al1      1.0000 0.66667  0.33333  0.37720  Biso   1.000  Al
+  Al2      1.0000 0.33333  0.66667  0.87720  Biso   1.000  Al
+  As1      1.0000 0.81053  0.62106  0.27175  Biso   1.000  As
+  As2      1.0000 0.37894  0.18947  0.27175  Biso   1.000  As
+  As3      1.0000 0.81053  0.18947  0.27175  Biso   1.000  As
+  As4      1.0000 0.18947  0.37894  0.77175  Biso   1.000  As
+  As5      1.0000 0.62106  0.81053  0.77175  Biso   1.000  As
+  As6      1.0000 0.18947  0.81053  0.77175  Biso   1.000  As
+  As7      1.0000 0.66667  0.33333  0.72884  Biso   1.000  As
+  As8      1.0000 0.33333  0.66667  0.22884  Biso   1.000  As

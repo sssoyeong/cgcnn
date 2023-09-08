@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       9.11925
+_cell_length_b       9.52174
+_cell_length_c       9.35477
+_cell_angle_alpha    71.5864
+_cell_angle_beta     90
+_cell_angle_gamma    90
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ba1      1.0000 0.78482  0.08342  0.46566  Biso   1.000  Ba
+  Ba2      1.0000 0.28482  0.91658  0.03434  Biso   1.000  Ba
+  Ba3      1.0000 0.21518  0.91658  0.53434  Biso   1.000  Ba
+  Ba4      1.0000 0.71518  0.08342  0.96566  Biso   1.000  Ba
+  K1       1.0000 0.42069  0.40932  0.22343  Biso   1.000  K 
+  K2       1.0000 0.92069  0.59068  0.27657  Biso   1.000  K 
+  K3       1.0000 0.57931  0.59068  0.77657  Biso   1.000  K 
+  K4       1.0000 0.07931  0.40932  0.72343  Biso   1.000  K 
+  As1      1.0000 0.04470  0.24761  0.14076  Biso   1.000  As
+  As2      1.0000 0.54470  0.75239  0.35924  Biso   1.000  As
+  As3      1.0000 0.95530  0.75239  0.85924  Biso   1.000  As
+  As4      1.0000 0.45530  0.24761  0.64076  Biso   1.000  As
+  Se1      1.0000 0.30326  0.64272  0.40591  Biso   1.000  Se
+  Se2      1.0000 0.80326  0.35728  0.09409  Biso   1.000  Se
+  Se3      1.0000 0.69674  0.35728  0.59409  Biso   1.000  Se
+  Se4      1.0000 0.19674  0.64272  0.90591  Biso   1.000  Se
+  Se5      1.0000 0.49020  0.02146  0.27758  Biso   1.000  Se
+  Se6      1.0000 0.99020  0.97854  0.22242  Biso   1.000  Se
+  Se7      1.0000 0.50980  0.97854  0.72242  Biso   1.000  Se
+  Se8      1.0000 0.00980  0.02146  0.77758  Biso   1.000  Se
+  Se9      1.0000 0.10605  0.27130  0.38377  Biso   1.000  Se
+  Se10     1.0000 0.60605  0.72870  0.11623  Biso   1.000  Se
+  Se11     1.0000 0.89395  0.72870  0.61623  Biso   1.000  Se
+  Se12     1.0000 0.39395  0.27130  0.88377  Biso   1.000  Se

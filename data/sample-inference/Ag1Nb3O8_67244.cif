@@ -1,0 +1,48 @@
+data_image0
+_cell_length_a       7.31259
+_cell_length_b       7.31259
+_cell_length_c       7.31259
+_cell_angle_alpha    122.323
+_cell_angle_beta     119.032
+_cell_angle_gamma    88.8553
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.00000  0.25000  0.25000  Biso   1.000  Ag
+  Ag2      1.0000 0.00000  0.75000  0.75000  Biso   1.000  Ag
+  Nb1      1.0000 0.50000  0.25000  0.75000  Biso   1.000  Nb
+  Nb2      1.0000 0.50000  0.75000  0.25000  Biso   1.000  Nb
+  Nb3      1.0000 0.52321  0.26831  0.25490  Biso   1.000  Nb
+  Nb4      1.0000 0.01341  0.76831  0.24510  Biso   1.000  Nb
+  Nb5      1.0000 0.98659  0.23169  0.75490  Biso   1.000  Nb
+  Nb6      1.0000 0.47679  0.73169  0.74510  Biso   1.000  Nb
+  O1       1.0000 0.15836  0.16679  0.99157  Biso   1.000  O 
+  O2       1.0000 0.17522  0.66679  0.50843  Biso   1.000  O 
+  O3       1.0000 0.82478  0.33321  0.49157  Biso   1.000  O 
+  O4       1.0000 0.84164  0.83321  0.00843  Biso   1.000  O 
+  O5       1.0000 0.54214  0.42904  0.11310  Biso   1.000  O 
+  O6       1.0000 0.31594  0.92904  0.38690  Biso   1.000  O 
+  O7       1.0000 0.68406  0.07096  0.61310  Biso   1.000  O 
+  O8       1.0000 0.45786  0.57096  0.88690  Biso   1.000  O 
+  O9       1.0000 0.54839  0.65484  0.48970  Biso   1.000  O 
+  O10      1.0000 0.16515  0.15484  0.60645  Biso   1.000  O 
+  O11      1.0000 0.83485  0.44131  0.98970  Biso   1.000  O 
+  O12      1.0000 0.54839  0.05869  0.89355  Biso   1.000  O 
+  O13      1.0000 0.45161  0.34516  0.51030  Biso   1.000  O 
+  O14      1.0000 0.83485  0.84516  0.39355  Biso   1.000  O 
+  O15      1.0000 0.16515  0.55869  0.01030  Biso   1.000  O 
+  O16      1.0000 0.45161  0.94131  0.10645  Biso   1.000  O 

@@ -1,0 +1,52 @@
+data_image0
+_cell_length_a       5.58007
+_cell_length_b       5.58007
+_cell_length_c       14.6651
+_cell_angle_alpha    84.6505
+_cell_angle_beta     84.6505
+_cell_angle_gamma    54.354
+
+_symmetry_space_group_name_H-M    "P 1"
+_symmetry_int_tables_number       1
+
+loop_
+  _symmetry_equiv_pos_as_xyz
+  'x, y, z'
+
+loop_
+  _atom_site_label
+  _atom_site_occupancy
+  _atom_site_fract_x
+  _atom_site_fract_y
+  _atom_site_fract_z
+  _atom_site_thermal_displace_type
+  _atom_site_B_iso_or_equiv
+  _atom_site_type_symbol
+  Ag1      1.0000 0.96689  0.03311  0.75000  Biso   1.000  Ag
+  Ag2      1.0000 0.03311  0.96689  0.25000  Biso   1.000  Ag
+  Ag3      1.0000 0.28869  0.39269  0.64993  Biso   1.000  Ag
+  Ag4      1.0000 0.60731  0.71131  0.85007  Biso   1.000  Ag
+  Ag5      1.0000 0.71131  0.60731  0.35007  Biso   1.000  Ag
+  Ag6      1.0000 0.39269  0.28869  0.14993  Biso   1.000  Ag
+  Fe1      1.0000 0.00000  0.00000  0.00000  Biso   1.000  Fe
+  Fe2      1.0000 0.00000  0.00000  0.50000  Biso   1.000  Fe
+  V1       1.0000 0.63085  0.70150  0.60172  Biso   1.000  V 
+  V2       1.0000 0.29850  0.36915  0.89828  Biso   1.000  V 
+  V3       1.0000 0.36915  0.29850  0.39828  Biso   1.000  V 
+  V4       1.0000 0.70150  0.63085  0.10172  Biso   1.000  V 
+  O1       1.0000 0.79623  0.53137  0.70407  Biso   1.000  O 
+  O2       1.0000 0.46863  0.20377  0.79593  Biso   1.000  O 
+  O3       1.0000 0.20377  0.46863  0.29593  Biso   1.000  O 
+  O4       1.0000 0.53137  0.79623  0.20407  Biso   1.000  O 
+  O5       1.0000 0.78981  0.42846  0.52419  Biso   1.000  O 
+  O6       1.0000 0.57154  0.21019  0.97581  Biso   1.000  O 
+  O7       1.0000 0.21019  0.57154  0.47581  Biso   1.000  O 
+  O8       1.0000 0.42846  0.78981  0.02419  Biso   1.000  O 
+  O9       1.0000 0.24330  0.86024  0.61513  Biso   1.000  O 
+  O10      1.0000 0.13976  0.75670  0.88487  Biso   1.000  O 
+  O11      1.0000 0.75670  0.13976  0.38487  Biso   1.000  O 
+  O12      1.0000 0.86024  0.24330  0.11513  Biso   1.000  O 
+  O13      1.0000 0.68964  0.97878  0.57213  Biso   1.000  O 
+  O14      1.0000 0.02122  0.31036  0.92787  Biso   1.000  O 
+  O15      1.0000 0.31036  0.02122  0.42787  Biso   1.000  O 
+  O16      1.0000 0.97878  0.68964  0.07213  Biso   1.000  O 
