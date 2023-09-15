@@ -6,6 +6,7 @@ import json
 import os
 import random
 import warnings
+import chardet
 
 import numpy as np
 import torch
@@ -304,7 +305,8 @@ class CIFData(Dataset):
         assert os.path.exists(root_dir), 'root_dir does not exist!'
         id_prop_file = os.path.join(self.root_dir, 'id_prop.csv')
         assert os.path.exists(id_prop_file), 'id_prop.csv does not exist!'
-        with open(id_prop_file) as f:
+        charenc = chardet.detect(open(id_prop_file, 'rb').read())['encoding']
+        with open(id_prop_file, encoding=charenc) as f:
             reader = csv.reader(f)
             self.id_prop_data = [row for row in reader]
         random.seed(random_seed)

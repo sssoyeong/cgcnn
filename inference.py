@@ -52,12 +52,6 @@ def main():
 
     # load data
     dataset = CIFData(args.cifpath)
-    # replace "\ufeff"
-    for i in range(len(dataset.id_prop_data)):
-        if dataset.id_prop_data[i][0].startswith("\ufeff"):
-            dataset.id_prop_data[i][0] = dataset.id_prop_data[i][0].replace("\ufeff", "")
-
-    dataset.id_prop_data
     collate_fn = collate_pool
     test_loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True,
                              num_workers=args.workers, collate_fn=collate_fn,
