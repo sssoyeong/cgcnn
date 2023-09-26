@@ -3,6 +3,7 @@ import os
 import shutil
 import sys
 import time
+import json
 
 import numpy as np
 import torch
@@ -30,8 +31,8 @@ def main():
                         help='number of data loading workers (default: 0)')
     parser.add_argument('--disable-cuda', action='store_true',
                         help='Disable CUDA')
-    parser.add_argument('--print-freq', '-p', default=10, type=int,
-                        metavar='N', help='print frequency (default: 10)')
+    parser.add_argument('--print-freq', '-p', default=1, type=int,
+                        metavar='N', help='print frequency (default: 1)')
     args = parser.parse_args(sys.argv[1:])
 
     # model file check

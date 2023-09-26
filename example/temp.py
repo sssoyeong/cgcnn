@@ -27,7 +27,7 @@ def main():
 
     modelpath = 'model/'+args.model+'.pth.tar'
     model_checkpoint = torch.load(modelpath, map_location=lambda storage, loc: storage)
-    model_args = argparse.Namespace(model_checkpoint['args'])
+    model_args = argparse.Namespace(**model_checkpoint['args'])
     print(model_args)
 
 
