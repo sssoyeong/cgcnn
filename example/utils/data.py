@@ -354,7 +354,7 @@ class CIFData(Dataset):
         return (atom_fea, nbr_fea, nbr_fea_idx), target, cif_id
 
 
-class CIFData_rev(Dataset):
+class CIFData_one(Dataset):
     """
     The CIFData dataset is a wrapper for a dataset where the crystal structures
     are stored in the form of CIF files. The dataset should have the following

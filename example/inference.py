@@ -11,20 +11,19 @@ from sklearn import metrics
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
-from cgcnn.data import CIFData
-from cgcnn.data import collate_pool
-from cgcnn.model import CrystalGraphConvNet
+from utils.data import CIFData
+from utils.data import collate_pool
+from utils.model import CrystalGraphConvNet
 
 
 def main():
     global args, model_args, best_mae_error
 
     # parser
-    parser = argparse.ArgumentParser(description='Crystal gated neural networks (CGCNN) - Band gap regression pre-trained model')
-    parser.add_argument('modelpath', help='Pre-trained model(pytorch model(.pth.tar))')
-    # parser.add_argument('cifpath', help='path to the directory of CIF files.')
-    parser.add_argument('cifinput1', help='input1 (.cif)')
-    parser.add_argument('cifinput2', help='input2 (.cif)')
+    parser = argparse.ArgumentParser(description='Crystal Gated Neural Networks (CGCNN) - inference')
+    parser.add_argument('model', help='select pre-trained model. \
+        formation-energy-per-atom, final-energy-per-atom,band-gap, efermi, bulk-moduli, shear-moduli, poisson-ratio')
+    parser.add_argument('cifinput', help='input file (.cif)')
     parser.add_argument('-b', '--batch-size', default=256, type=int,
                         metavar='N', help='mini-batch size (default: 256)')
     parser.add_argument('-j', '--workers', default=0, type=int, metavar='N',
@@ -36,14 +35,14 @@ def main():
     args = parser.parse_args(sys.argv[1:])
 
     # model file check
-    if os.path.isfile(args.modelpath):
-        print("=> loading model params '{}'".format(args.modelpath))
-        model_checkpoint = torch.load(args.modelpath,
-                                    map_location=lambda storage, loc: storage)
+    modelpath = 'model/'+args.model+'.pth.tar'
+    if os.path.isfile(modelpath):
+        print("=> loading model params '{}'".format(args.model))
+        model_checkpoint = torch.load(modelpath, map_location=lambda storage, loc: storage)
         model_args = argparse.Namespace(**model_checkpoint['args'])
-        print("=> loaded model params '{}'".format(args.modelpath))
+        print("=> loaded model params '{}'".format(args.model))
     else:
-        print("=> no model params found at '{}'".format(args.modelpath))
+        print("=> no model found like '{}'".format(args.model))
     
     args.cuda = not args.disable_cuda and torch.cuda.is_available()
 
@@ -53,7 +52,7 @@ def main():
         best_mae_error = 0.
 
     # load data
-    dataset = CIFData(args.cifpath)
+    dataset = CIFData(args.cifinput)
     collate_fn = collate_pool
     test_loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True,
                              num_workers=args.workers, collate_fn=collate_fn,
@@ -91,17 +90,17 @@ def main():
     normalizer = Normalizer(torch.zeros(3))
 
     # optionally resume from a checkpoint
-    if os.path.isfile(args.modelpath):
-        print("=> loading model '{}'".format(args.modelpath))
-        checkpoint = torch.load(args.modelpath,
+    if os.path.isfile(modelpath):
+        print("=> loading model '{}'".format(modelpath))
+        checkpoint = torch.load(modelpath,
                                 map_location=lambda storage, loc: storage)
         model.load_state_dict(checkpoint['state_dict'])
         normalizer.load_state_dict(checkpoint['normalizer'])
         print("=> loaded model '{}' (epoch {}, validation {})"
-              .format(args.modelpath, checkpoint['epoch'],
+              .format(modelpath, checkpoint['epoch'],
                       checkpoint['best_mae_error']))
     else:
-        print("=> no model found at '{}'".format(args.modelpath))
+        print("=> no model found at '{}'".format(modelpath))
 
     validate(test_loader, model, criterion, normalizer, test=True)
 
@@ -291,12 +290,6 @@ class AverageMeter(object):
         self.sum += val * n
         self.count += n
         self.avg = self.sum / self.count
-
-
-def save_checkpoint(state, is_best, filename='checkpoint.pth.tar'):
-    torch.save(state, filename)
-    if is_best:
-        shutil.copyfile(filename, 'model_best.pth.tar')
 
 
 if __name__ == '__main__':
