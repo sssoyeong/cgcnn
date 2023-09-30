@@ -12,9 +12,23 @@ from sklearn import metrics
 from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
-from utils.data import CIFData
+from utils.data import CIFData_one
 from utils.data import collate_pool
 from utils.model import CrystalGraphConvNet
+
+'''
+* MEMO *
+    - atom_init.json에 대해
+        ? 이게 어떤 역할을 하는 파일인지
+        ? 에제에 들어있는 동일한 파일 넣어도 되는 건지
+            -> (OK) 동일한 파일값 활용할 수 있게 하기
+                (NO) 파일값 생성하는 방법이 따로 있는지?
+                    -> 간단하다면 해당 방법으로 생성해주기
+                    -> 복잡하다면 직접 넣을 수 있게 하기
+    - prediction과 target에 대해
+        property를 넣으면 prediction score를 계산할 수 있음.
+        -> id_prop.csv의 유무에 따라서 prediction score까지 계산할지 말지 정하면 됨.
+'''
 
 
 def main():
@@ -23,8 +37,9 @@ def main():
     # parser
     parser = argparse.ArgumentParser(description='Crystal Gated Neural Networks (CGCNN) - inference')
     parser.add_argument('model', help='select pre-trained model. \
-        formation-energy-per-atom, final-energy-per-atom,band-gap, efermi, bulk-moduli, shear-moduli, poisson-ratio')
-    parser.add_argument('cifinput', help='input file (.cif)')
+                                    formation-energy-per-atom, final-energy-per-atom,band-gap, efermi, \
+                                    bulk-moduli, shear-moduli, poisson-ratio')
+    parser.add_argument('cifpath', help='path to the CIF files. ')
     parser.add_argument('-b', '--batch-size', default=256, type=int,
                         metavar='N', help='mini-batch size (default: 256)')
     parser.add_argument('-j', '--workers', default=0, type=int, metavar='N',
@@ -41,6 +56,7 @@ def main():
         print("=> loading model params '{}'".format(args.model))
         model_checkpoint = torch.load(modelpath, map_location=lambda storage, loc: storage)
         model_args = argparse.Namespace(**model_checkpoint['args'])
+        
         print("=> loaded model params '{}'".format(args.model))
     else:
         print("=> no model found like '{}'".format(args.model))
@@ -53,14 +69,14 @@ def main():
         best_mae_error = 0.
 
     # load data
-    dataset = CIFData(args.cifinput)
+    dataset = CIFData_one(args.cifpath)
     collate_fn = collate_pool
     test_loader = DataLoader(dataset, batch_size=args.batch_size, shuffle=True,
                              num_workers=args.workers, collate_fn=collate_fn,
                              pin_memory=args.cuda)
 
     # build model
-    structures, _, _ = dataset[0]
+    structures, _ = dataset[0]
     orig_atom_fea_len = structures[0].shape[-1]
     nbr_fea_len = structures[1].shape[-1]
     model = CrystalGraphConvNet(orig_atom_fea_len, nbr_fea_len,
@@ -68,8 +84,7 @@ def main():
                                 n_conv=model_args.n_conv,
                                 h_fea_len=model_args.h_fea_len,
                                 n_h=model_args.n_h,
-                                classification=True if model_args.task ==
-                                'classification' else False)
+                                classification=True if model_args.task == 'classification' else False)
     if args.cuda:
         model.cuda()
 
@@ -78,15 +93,6 @@ def main():
         criterion = nn.NLLLoss()
     else:
         criterion = nn.MSELoss()
-    # if args.optim == 'SGD':
-    #     optimizer = optim.SGD(model.parameters(), args.lr,
-    #                           momentum=args.momentum,
-    #                           weight_decay=args.weight_decay)
-    # elif args.optim == 'Adam':
-    #     optimizer = optim.Adam(model.parameters(), args.lr,
-    #                            weight_decay=args.weight_decay)
-    # else:
-    #     raise NameError('Only SGD or Adam is allowed as --optim')
 
     normalizer = Normalizer(torch.zeros(3))
 
@@ -103,20 +109,28 @@ def main():
     else:
         print("=> no model found at '{}'".format(modelpath))
 
-    validate(test_loader, model, criterion, normalizer, test=True)
+    result, calc_time = validate(test_loader, model, criterion, normalizer, test=True)
+    print(f'=> prediction complete (elapsed time {calc_time:.5f} sec)')
+    print(f'   {result}')
+
+    # save .json
+    file_path = f"./result_{args.model}_{time.strftime('%y%m%d%H%M%S')}.json"
+
+    result_json = {}
+    result_json['result'], result_json['calculation_time [sec]'] = [], calc_time
+    for idx, key in enumerate(result):
+        result_json['result'].append({
+            f'{key}.cif': result[key]
+        })
+    with open(file_path, 'w') as outfile:
+        json.dump(result_json, outfile, indent=4)
+
+    if os.path.exists(file_path):
+        print(f'=> result file \'{file_path}\' saved successfully')
 
 
 def validate(val_loader, model, criterion, normalizer, test=False):
     batch_time = AverageMeter()
-    losses = AverageMeter()
-    if model_args.task == 'regression':
-        mae_errors = AverageMeter()
-    else:
-        accuracies = AverageMeter()
-        precisions = AverageMeter()
-        recalls = AverageMeter()
-        fscores = AverageMeter()
-        auc_scores = AverageMeter()
     if test:
         test_targets = []
         test_preds = []
@@ -126,7 +140,7 @@ def validate(val_loader, model, criterion, normalizer, test=False):
     model.eval()
 
     end = time.time()
-    for i, (input, target, batch_cif_ids) in enumerate(val_loader):
+    for i, (input, batch_cif_ids) in enumerate(val_loader):
         with torch.no_grad():
             if args.cuda:
                 input_var = (Variable(input[0].cuda(non_blocking=True)),
@@ -138,91 +152,31 @@ def validate(val_loader, model, criterion, normalizer, test=False):
                              Variable(input[1]),
                              input[2],
                              input[3])
-        if model_args.task == 'regression':
-            target_normed = normalizer.norm(target)
-        else:
-            target_normed = target.view(-1).long()
-        with torch.no_grad():
-            if args.cuda:
-                target_var = Variable(target_normed.cuda(non_blocking=True))
-            else:
-                target_var = Variable(target_normed)
 
         # compute output
         output = model(*input_var)
-        loss = criterion(output, target_var)
 
         # measure accuracy and record loss
         if model_args.task == 'regression':
-            mae_error = mae(normalizer.denorm(output.data.cpu()), target)
-            losses.update(loss.data.cpu().item(), target.size(0))
-            mae_errors.update(mae_error, target.size(0))
             if test:
                 test_pred = normalizer.denorm(output.data.cpu())
-                test_target = target
                 test_preds += test_pred.view(-1).tolist()
-                test_targets += test_target.view(-1).tolist()
                 test_cif_ids += batch_cif_ids
         else:
-            accuracy, precision, recall, fscore, auc_score =\
-                class_eval(output.data.cpu(), target)
-            losses.update(loss.data.cpu().item(), target.size(0))
-            accuracies.update(accuracy, target.size(0))
-            precisions.update(precision, target.size(0))
-            recalls.update(recall, target.size(0))
-            fscores.update(fscore, target.size(0))
-            auc_scores.update(auc_score, target.size(0))
             if test:
                 test_pred = torch.exp(output.data.cpu())
-                test_target = target
                 assert test_pred.shape[1] == 2
                 test_preds += test_pred[:, 1].tolist()
-                test_targets += test_target.view(-1).tolist()
                 test_cif_ids += batch_cif_ids
 
         # measure elapsed time
         batch_time.update(time.time() - end)
         end = time.time()
 
-        if i % args.print_freq == 0:
-            if model_args.task == 'regression':
-                print('Test: [{0}/{1}]\t'
-                      'Time {batch_time.val:.3f} ({batch_time.avg:.3f})\t'
-                      'Loss {loss.val:.4f} ({loss.avg:.4f})\t'
-                      'MAE {mae_errors.val:.3f} ({mae_errors.avg:.3f})'.format(
-                       i, len(val_loader), batch_time=batch_time, loss=losses,
-                       mae_errors=mae_errors))
-            else:
-                print('Test: [{0}/{1}]\t'
-                      'Time {batch_time.val:.3f} ({batch_time.avg:.3f})\t'
-                      'Loss {loss.val:.4f} ({loss.avg:.4f})\t'
-                      'Accu {accu.val:.3f} ({accu.avg:.3f})\t'
-                      'Precision {prec.val:.3f} ({prec.avg:.3f})\t'
-                      'Recall {recall.val:.3f} ({recall.avg:.3f})\t'
-                      'F1 {f1.val:.3f} ({f1.avg:.3f})\t'
-                      'AUC {auc.val:.3f} ({auc.avg:.3f})'.format(
-                       i, len(val_loader), batch_time=batch_time, loss=losses,
-                       accu=accuracies, prec=precisions, recall=recalls,
-                       f1=fscores, auc=auc_scores))
-
-    if test:
-        star_label = '**'
-        import csv
-        with open('test_results.csv', 'w') as f:
-            writer = csv.writer(f)
-            for cif_id, target, pred in zip(test_cif_ids, test_targets,
-                                            test_preds):
-                writer.writerow((cif_id, target, pred))
-    else:
-        star_label = '*'
-    if model_args.task == 'regression':
-        print(' {star} MAE {mae_errors.avg:.3f}'.format(star=star_label,
-                                                        mae_errors=mae_errors))
-        return mae_errors.avg
-    else:
-        print(' {star} AUC {auc.avg:.3f}'.format(star=star_label,
-                                                 auc=auc_scores))
-        return auc_scores.avg
+        result_dict = dict.fromkeys(test_cif_ids)
+        for idx, key in enumerate(result_dict):
+            result_dict[key] = test_preds[idx]
+    return result_dict, batch_time.val
 
 
 class Normalizer(object):
@@ -245,34 +199,6 @@ class Normalizer(object):
     def load_state_dict(self, state_dict):
         self.mean = state_dict['mean']
         self.std = state_dict['std']
-
-
-def mae(prediction, target):
-    """
-    Computes the mean absolute error between prediction and target
-
-    Parameters
-    ----------
-
-    prediction: torch.Tensor (N, 1)
-    target: torch.Tensor (N, 1)
-    """
-    return torch.mean(torch.abs(target - prediction))
-
-
-def class_eval(prediction, target):
-    prediction = np.exp(prediction.numpy())
-    target = target.numpy()
-    pred_label = np.argmax(prediction, axis=1)
-    target_label = np.squeeze(target)
-    if prediction.shape[1] == 2:
-        precision, recall, fscore, _ = metrics.precision_recall_fscore_support(
-            target_label, pred_label, average='binary')
-        auc_score = metrics.roc_auc_score(target_label, prediction[:, 1])
-        accuracy = metrics.accuracy_score(target_label, pred_label)
-    else:
-        raise NotImplementedError
-    return accuracy, precision, recall, fscore, auc_score
 
 
 class AverageMeter(object):

@@ -133,7 +133,7 @@ def collate_pool(dataset_list):
     crystal_atom_idx, batch_target = [], []
     batch_cif_ids = []
     base_idx = 0
-    for i, ((atom_fea, nbr_fea, nbr_fea_idx), target, cif_id)\
+    for i, ((atom_fea, nbr_fea, nbr_fea_idx), cif_id)\
             in enumerate(dataset_list):
         n_i = atom_fea.shape[0]  # number of atoms for this crystal
         batch_atom_fea.append(atom_fea)
@@ -141,15 +141,14 @@ def collate_pool(dataset_list):
         batch_nbr_fea_idx.append(nbr_fea_idx+base_idx)
         new_idx = torch.LongTensor(np.arange(n_i)+base_idx)
         crystal_atom_idx.append(new_idx)
-        batch_target.append(target)
+        # batch_target.append(target)
         batch_cif_ids.append(cif_id)
         base_idx += n_i
     return (torch.cat(batch_atom_fea, dim=0),
             torch.cat(batch_nbr_fea, dim=0),
             torch.cat(batch_nbr_fea_idx, dim=0),
-            crystal_atom_idx),\
-        torch.stack(batch_target, dim=0),\
-        batch_cif_ids
+            crystal_atom_idx), batch_cif_ids
+        # torch.stack(batch_target, dim=0),\
 
 
 class GaussianDistance(object):
@@ -356,20 +355,16 @@ class CIFData(Dataset):
 
 class CIFData_one(Dataset):
     """
-    The CIFData dataset is a wrapper for a dataset where the crystal structures
-    are stored in the form of CIF files. The dataset should have the following
-    directory structure:
+    The CIFData dataset is a wrapper for a dataset 
+    where the crystal structures are stored in the form of CIF files. 
+    This wrapper doesn't use id_prop.csv file - just for prediction (inference). 
+    If you want to apply id_prop.csv (IDs and properties dataset),
+    you have to use 'CIFData' instead of this.
+    The dataset should have the following directory structure:
 
     root_dir
-    ├── id_prop.csv
     ├── atom_init.json
     ├── id0.cif
-    ├── id1.cif
-    ├── ...
-
-    id_prop.csv: a CSV file with two columns. The first column recodes a
-    unique ID for each crystal, and the second column recodes the value of
-    target property.
 
     atom_init.json: a JSON file that stores the initialization vector for each
     element.
@@ -399,35 +394,27 @@ class CIFData_one(Dataset):
     atom_fea: torch.Tensor shape (n_i, atom_fea_len)
     nbr_fea: torch.Tensor shape (n_i, M, nbr_fea_len)
     nbr_fea_idx: torch.LongTensor shape (n_i, M)
-    target: torch.Tensor shape (1, )
     cif_id: str or int
     """
-    def __init__(self, filename, max_num_nbr=12, radius=8, dmin=0, step=0.2,
-                 random_seed=123):
-        self.filename = filename
+    def __init__(self, cifpath, max_num_nbr=12, radius=8, dmin=0, step=0.2, random_seed=123):
+        self.cifpath = cifpath
         self.max_num_nbr, self.radius = max_num_nbr, radius
-        assert os.path.exists(root_dir), 'root_dir does not exist!'
-        id_prop_file = os.path.join(self.root_dir, 'id_prop.csv')
-        assert os.path.exists(id_prop_file), 'id_prop.csv does not exist!'
-        charenc = chardet.detect(open(id_prop_file, 'rb').read())['encoding']
-        with open(id_prop_file, encoding=charenc) as f:
-            reader = csv.reader(f)
-            self.id_prop_data = [row for row in reader]
-        random.seed(random_seed)
-        random.shuffle(self.id_prop_data)
-        atom_init_file = os.path.join(self.root_dir, 'atom_init.json')
+        assert os.path.exists(cifpath), f'{cifpath} does not exist!'
+        self.id_prop_data = os.path.basename(cifpath)[:-4]
+
+        # load atom_init.json
+        atom_init_file = os.path.join(os.path.dirname(self.cifpath), 'atom_init.json')
         assert os.path.exists(atom_init_file), 'atom_init.json does not exist!'
         self.ari = AtomCustomJSONInitializer(atom_init_file)
         self.gdf = GaussianDistance(dmin=dmin, dmax=self.radius, step=step)
 
     def __len__(self):
-        return len(self.id_prop_data)
+        return 1
 
     @functools.lru_cache(maxsize=None)  # Cache loaded structures
     def __getitem__(self, idx):
-        cif_id, target = self.id_prop_data[idx]
-        crystal = Structure.from_file(os.path.join(self.root_dir,
-                                                   cif_id+'.cif'))
+        cif_id = self.id_prop_data
+        crystal = Structure.from_file(self.cifpath)
         atom_fea = np.vstack([self.ari.get_atom_fea(crystal[i].specie.number)
                               for i in range(len(crystal))])
         atom_fea = torch.Tensor(atom_fea)
@@ -454,5 +441,4 @@ class CIFData_one(Dataset):
         atom_fea = torch.Tensor(atom_fea)
         nbr_fea = torch.Tensor(nbr_fea)
         nbr_fea_idx = torch.LongTensor(nbr_fea_idx)
-        target = torch.Tensor([float(target)])
-        return (atom_fea, nbr_fea, nbr_fea_idx), target, cif_id
+        return (atom_fea, nbr_fea, nbr_fea_idx), cif_id
