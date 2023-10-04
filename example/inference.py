@@ -16,20 +16,6 @@ from utils.data import CIFData_one
 from utils.data import collate_pool
 from utils.model import CrystalGraphConvNet
 
-'''
-* MEMO *
-    - atom_init.json에 대해
-        ? 이게 어떤 역할을 하는 파일인지
-        ? 에제에 들어있는 동일한 파일 넣어도 되는 건지
-            -> (OK) 동일한 파일값 활용할 수 있게 하기
-                (NO) 파일값 생성하는 방법이 따로 있는지?
-                    -> 간단하다면 해당 방법으로 생성해주기
-                    -> 복잡하다면 직접 넣을 수 있게 하기
-    - prediction과 target에 대해
-        property를 넣으면 prediction score를 계산할 수 있음.
-        -> id_prop.csv의 유무에 따라서 prediction score까지 계산할지 말지 정하면 됨.
-'''
-
 
 def main():
     global args, model_args, best_mae_error
@@ -109,6 +95,7 @@ def main():
     else:
         print("=> no model found at '{}'".format(modelpath))
 
+    # prediction
     result, calc_time = validate(test_loader, model, criterion, normalizer, test=True)
     print(f'=> prediction complete (elapsed time {calc_time:.5f} sec)')
     print(f'   {result}')

@@ -6,7 +6,6 @@ import json
 import os
 import random
 import warnings
-import chardet
 
 import numpy as np
 import torch
@@ -403,7 +402,8 @@ class CIFData_one(Dataset):
         self.id_prop_data = os.path.basename(cifpath)[:-4]
 
         # load atom_init.json
-        atom_init_file = os.path.join(os.path.dirname(self.cifpath), 'atom_init.json')
+        # atom_init_file = os.path.join(os.path.dirname(self.cifpath), 'atom_init.json')
+        atom_init_file = os.path.join(os.getcwd(), 'atom_init.json')
         assert os.path.exists(atom_init_file), 'atom_init.json does not exist!'
         self.ari = AtomCustomJSONInitializer(atom_init_file)
         self.gdf = GaussianDistance(dmin=dmin, dmax=self.radius, step=step)
