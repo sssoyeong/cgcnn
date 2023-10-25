@@ -1,0 +1,3 @@
+device = "cpu"  # "cuda" or "cpu"
+charged_data = "./inference_model/data_example/charge(26304).cif"
+discharged_data = "./inference_model/data_example/discharge(560368).cif"
